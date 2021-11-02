@@ -9,8 +9,8 @@ In this project, we design an isolation ward using FreeCAD, a 3D modelling softw
 ## **Dependancies**
 
 This project makes use of the following software:
-- FreeCAD
-- Gmsh
-- OpenFOAM
-- MPICH
-- ParaView
+- FreeCAD (v0.18)
+- Gmsh (v4.8.4)
+- OpenFOAM (v2012)
+- MPICH (v3.3.2)
+- ParaView (v5.6.0)
