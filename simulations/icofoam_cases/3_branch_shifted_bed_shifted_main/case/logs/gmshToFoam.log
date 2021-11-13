@@ -1,0 +1,86 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 8-1c9b5879390b
+Exec   : gmshToFoam multi_outlet.msh
+Date   : Nov 13 2021
+Time   : 21:27:30
+Host   : "pop-os"
+PID    : 22558
+I/O    : uncollated
+Case   : /home/naimishbalaji/Desktop/Mini_Project/CFD-For-Ventilation-Analysis/simulations/icofoam_cases/3_branch_shifted_bed_shifted_main/case
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Starting to read mesh format at line 2
+Read format version 2.2  ascii 0
+
+Starting to read physical names at line 5
+Physical names:7
+    Surface 359	wall
+    Surface 360	main_inlet
+    Surface 361	main_outlet
+    Surface 362	branch_inlet
+    Surface 363	branch_outlet
+    Surface 364	surface
+    Volume 358	flow_domain
+
+Starting to read points at line 15
+Vertices to be read:110185
+Vertices read:110185
+
+Starting to read cells at line 110203
+Cells to be read:112924
+
+Mapping region 359 to Foam patch 0
+Mapping region 364 to Foam patch 1
+Mapping region 361 to Foam patch 2
+Mapping region 363 to Foam patch 3
+Mapping region 362 to Foam patch 4
+Mapping region 360 to Foam patch 5
+Mapping region 358 to Foam cellZone 0
+Cells:
+    total:92272
+    hex  :92272
+    prism:0
+    pyr  :0
+    tet  :0
+
+CellZones:
+Zone	Size
+    0	92272
+
+Skipping tag  at line 223130
+Patch 0 gets name wall
+Patch 1 gets name surface
+Patch 2 gets name main_outlet
+Patch 3 gets name branch_outlet
+Patch 4 gets name branch_inlet
+Patch 5 gets name main_inlet
+
+--> FOAM Warning : 
+    From function Foam::polyMesh::polyMesh(const Foam::IOobject&, Foam::pointField&&, const cellShapeList&, const faceListList&, const wordList&, const wordList&, const Foam::word&, const Foam::word&, const wordList&, bool)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 595
+    Found 20652 undefined faces in mesh; adding to default patch.
+Finding faces of patch 0
+Finding faces of patch 1
+Finding faces of patch 2
+Finding faces of patch 3
+Finding faces of patch 4
+Finding faces of patch 5
+
+FaceZones:
+Zone	Size
+
+Writing zone 0 to cellZone flow_domain and cellSet
+End
+
