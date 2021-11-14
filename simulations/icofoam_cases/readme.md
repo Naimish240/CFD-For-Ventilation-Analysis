@@ -54,3 +54,39 @@ After seeing how (4) performed, we re-ran the 3rd case by shifting the beds down
 We re-ran the 5th case by removing the branch inlet vent right next to the main inlet, to see the effect removing it would have on the flow field.
 
 <img src = "3_branch_shifted_bed_shifted_main_one_out.png">
+
+## **7. 3_branch_shifted_bed_shifted_main**
+
+After running (6), we tried adding one extra main outlet vent to see how it affect the flow.
+
+<img src = "3_branch_shifted_bed_shifted_main.png">
+
+## **8. 3_wall_4_ceiling**
+
+Next, we tried to switch things up by modifying (6) to have two wall mounted inlets, while also removing one of the ceiling mounted inlets to improve flow near the nurse station.
+
+<img src = "3_wall_4_ceiling.png">
+
+## **9. 3_wall_5_ceiling**
+
+After running (8), we tried to improve the flow by adding an extra outlet vent in the "middle", to see what kind of effect it would have on the flow.
+
+<img src = "3_wall_5_ceiling.png">
+
+## **10. 2_wall_6_ceiling**
+
+After running (9), we tried replacing one of the ceiling mounted inlets with a wall mounted inlet, to see what kind of effect it would have on the flow.
+
+<img src = "2_wall_6_ceiling.png">
+
+## **11. 3_branch_pair_shifted**
+
+We re-visited (4), and tried adding an extra pair of ceiling mounted vents to see what kind of effect it would have on the flow as a whole.
+
+<img src = "3_branch_pair_shifted.png">
+
+## **12. 3_branch_pair_1_outlet_shifted**
+
+Finally, we tried merging (11) and (10) together, to see what kind of effects it would have on the flow field.
+
+<img src = "3_branch_pair_1_outlet_shifted.png">
