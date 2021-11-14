@@ -14,3 +14,39 @@ This project makes use of the following software:
 - OpenFOAM (v2012)
 - MPICH (v3.3.2)
 - ParaView (v5.6.0)
+
+## **Folder Setup**
+
+Each case is divided as follows:
+```
+<Case Name>
+├── case
+│   ├── 0
+│   │   ├── p
+│   │   └── U
+│   ├── <Mesh_Name>.msh
+│   ├── allrun.sh
+│   ├── constant
+│   │   ├── polyMesh
+│   │   └── transportProperties
+│   ├── instructions.md
+│   ├── state.pvsm
+│   └── system
+│       ├── controlDict
+│       ├── decomposeParDict
+│       ├── fvSchemes
+│       └── fvSolution
+├── geometry
+│   ├── <FreCAD>.FCStd
+│   ├── <Gmsh>.geo
+│   └── <CAD_Export>.step
+└── screenshots
+    └── <Screenshot>.png
+```
+
+The `case` directory contains the files required to run the OpenFOAM simulation.
+The `geometry` directory contains the CAD model, STEP file and GEO files.
+The `screenshots` directory contains the screenshots associated with the project.
+
+## **General Instructions**
+
