@@ -29,6 +29,8 @@ By default, the simulation is set up to run on 2 cores using the 'scotch' method
 numberOfSubdomains  <Replace with number of cores>;
 ```
 
+A general explanation going through our overall thought process in the design iteration phase can be found in the `simulations/icofoam_cases` directory.
+
 ## **Folder Setup**
 
 Each case is divided as follows:

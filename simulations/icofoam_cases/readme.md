@@ -42,3 +42,15 @@ Next, we tried removing the "main" ducts and replaced them with two pairs of duc
 <img src = "2_branch_pair_shifted.png">
 
 After that, we tried shifting the beds down the room by 5 feet to ensure the corner bed wasn't sticking to the wall, and we re-ran the previous case with this minor modification.
+
+## **5. 3_branch_1_main_shifted_bed**
+
+<img src = "3_branch_1_main_shifted_bed.png">
+
+After seeing how (4) performed, we re-ran the 3rd case by shifting the beds down the room by 5 feet too, to see the effect it would have on the flow field.
+
+## **6. 3_branch_shifted_bed_shifted_main_one_out**
+
+<img src = "3_branch_shifted_bed_shifted_main_one_out.png">
+
+We re-ran the 5th case by removing the branch inlet vent right next to the main inlet, to see the effect removing it would have on the flow field.
