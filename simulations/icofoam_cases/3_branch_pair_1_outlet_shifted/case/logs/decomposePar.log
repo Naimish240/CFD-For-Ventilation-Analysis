@@ -1,0 +1,70 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 8-1c9b5879390b
+Exec   : decomposePar
+Date   : Nov 14 2021
+Time   : 12:33:40
+Host   : "pop-os"
+PID    : 15571
+I/O    : uncollated
+Case   : /home/naimishbalaji/Desktop/Mini_Project/CFD-For-Ventilation-Analysis/simulations/icofoam_cases/3_branch_pair_1_outlet_shifted/case
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh region0
+
+Create mesh
+
+Calculating distribution of cells
+Selecting decompositionMethod scotch
+
+Finished decomposition in 0.15 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 48880
+    Number of faces shared with processor 1 = 744
+    Number of processor patches = 1
+    Number of processor faces = 744
+    Number of boundary faces = 11052
+
+Processor 1
+    Number of cells = 48880
+    Number of faces shared with processor 0 = 744
+    Number of processor patches = 1
+    Number of processor faces = 744
+    Number of boundary faces = 10374
+
+Number of processor faces = 744
+Max number of cells = 48880 (0% above average 48880)
+Max number of processor patches = 1 (0% above average 1)
+Max number of faces between processors = 744 (0% above average 744)
+
+Time = 0
+
+Processor 0: field transfer
+Processor 1: field transfer
+
+End
+
