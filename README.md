@@ -31,6 +31,21 @@ numberOfSubdomains  <Replace with number of cores>;
 
 A general explanation going through our overall thought process in the design iteration phase can be found in the `simulations/icofoam_cases` directory.
 
+## **Procedure**
+
+Our "pipeline" for running each case is as follows:
+
+- First, we define the geometry of the room (floor plan) in FreeCAD.
+- Next, we export the flow field (after making the required unions and cuts) as a STEP file.
+- Then, we take the STEP file into Gmsh, and define the inlets, outlets, surfaces and walls.
+- After that, we generate a hexahedral mesh with Gmsh. We refine the mesh till around 100k cells are produced.
+- We then export the mesh from Gmsh as a .msh file, saving it in the "ASCII - II" format.
+- Then, we prepare the mesh for OpenFOAM using the `gmshToFoam` command on the exported mesh.
+- After that, we scale the mesh down to account for unit conversion errors. This is because the CAD model was generated in imperial units, whereas OpenFOAM uses metric.
+- Next, we run the simulation using the icoFoam solver. We use mpich to parallelize this process, and run `reconstructPar` to merge the results from each CPU core.
+- Then, we open the `controlDict` in ParaView, and plot the streamlines using "point source".
+- Finally, we save the ParaView state to `state.psvm` for future reference.
+
 ## **Folder Setup**
 
 Each case is divided as follows:
