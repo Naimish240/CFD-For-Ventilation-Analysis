@@ -1,6 +1,6 @@
 # CFD-For-Ventilation-Analysis
 
-Check []() for a brief explanation on each case.
+[Click here to briefly see our thought proccess behind the design iterations](https://github.com/Naimish240/CFD-For-Ventilation-Analysis/tree/main/simulations/icofoam_cases)
 
 ## **Abstract**
 
