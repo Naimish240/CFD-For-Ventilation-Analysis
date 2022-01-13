@@ -7,12 +7,12 @@
 \*---------------------------------------------------------------------------*/
 Build  : 8-1c9b5879390b
 Exec   : checkMesh
-Date   : Nov 25 2021
-Time   : 14:52:58
+Date   : Dec 30 2021
+Time   : 13:17:10
 Host   : "pop-os"
-PID    : 18080
+PID    : 7462
 I/O    : uncollated
-Case   : /home/naimishbalaji/Desktop/Mini_Project/CFD-For-Ventilation-Analysis/simulations/icofoam_cases/3_wall_5_ceiling/case
+Case   : /home/naimishbalaji/Desktop/Mini_Project/CFD-For-Ventilation-Analysis/simulations/icofoam_cases/1_inlet_1_outlet/case
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -26,18 +26,18 @@ Create polyMesh for time = 0
 Time = 0
 
 Mesh stats
-    points:           107103
-    faces:            278793
-    internal faces:   258351
-    cells:            89524
+    points:           163437
+    faces:            430041
+    internal faces:   403863
+    cells:            138984
     faces per cell:   6
-    boundary patches: 6
+    boundary patches: 4
     point zones:      0
     face zones:       0
     cell zones:       1
 
 Overall number of cells of each type:
-    hexahedra:     89524
+    hexahedra:     138984
     prisms:        0
     wedges:        0
     pyramids:      0
@@ -55,28 +55,26 @@ Checking topology...
 
 Checking patch topology for multiply connected surfaces...
     Patch               Faces    Points   Surface topology                  
-    wall                16650    16941    ok (non-closed singly connected)  
-    surface             3600     3891     ok (non-closed singly connected)  
-    main_outlet         24       31       ok (non-closed singly connected)  
-    branch_inlet        48       62       ok (non-closed singly connected)  
-    branch_outlet       72       93       ok (non-closed singly connected)  
-    main_inlet          48       62       ok (non-closed singly connected)  
+    wall                21876    22167    ok (non-closed singly connected)  
+    inlet               24       31       ok (non-closed singly connected)  
+    surfaces            4254     4575     ok (non-closed singly connected)  
+    outlet              24       31       ok (non-closed singly connected)  
 
 Checking geometry...
-    Overall domain bounding box (-1524 0 0) (19812 12192 3962.4)
+    Overall domain bounding box (-1524 0 0) (19812 12192 3048)
     Mesh has 3 geometric (non-empty/wedge) directions (1 1 1)
     Mesh has 3 solution (non-empty) directions (1 1 1)
-    Boundary openness (-5.9778063e-17 -3.7643088e-18 -8.2311488e-17) OK.
-    Max cell openness = 2.2153733e-16 OK.
-    Max aspect ratio = 8.1730467 OK.
-    Minimum face area = 2021.004. Maximum face area = 169103.43.  Face area magnitudes OK.
-    Min volume = 412215.62. Max volume = 29043721.  Total volume = 6.4933282e+11.  Cell volumes OK.
-    Mesh non-orthogonality Max: 78.147484 average: 26.862896
-   *Number of severely non-orthogonal (> 70 degrees) faces: 615.
+    Boundary openness (-1.0993591e-17 3.6934561e-18 2.0067236e-16) OK.
+    Max cell openness = 2.2226674e-16 OK.
+    Max aspect ratio = 8.1688862 OK.
+    Minimum face area = 2021.004. Maximum face area = 110721.12.  Face area magnitudes OK.
+    Min volume = 412215.58. Max volume = 16054388.  Total volume = 6.466144e+11.  Cell volumes OK.
+    Mesh non-orthogonality Max: 75.513386 average: 25.95373
+   *Number of severely non-orthogonal (> 70 degrees) faces: 857.
     Non-orthogonality check OK.
-  <<Writing 615 non-orthogonal faces to set nonOrthoFaces
+  <<Writing 857 non-orthogonal faces to set nonOrthoFaces
     Face pyramids OK.
-    Max skewness = 1.2557685 OK.
+    Max skewness = 1.1057848 OK.
     Coupled point location match (average 0) OK.
 
 Mesh OK.

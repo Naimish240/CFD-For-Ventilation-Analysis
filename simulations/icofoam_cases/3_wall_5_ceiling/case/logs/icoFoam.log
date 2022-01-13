@@ -7,14 +7,14 @@
 \*---------------------------------------------------------------------------*/
 Build  : 8-1c9b5879390b
 Exec   : icoFoam -parallel
-Date   : Nov 14 2021
-Time   : 10:39:33
+Date   : Nov 25 2021
+Time   : 14:53:05
 Host   : "pop-os"
-PID    : 8418
+PID    : 18089
 I/O    : uncollated
 Case   : /home/naimishbalaji/Desktop/Mini_Project/CFD-For-Ventilation-Analysis/simulations/icofoam_cases/3_wall_5_ceiling/case
 nProcs : 2
-Slaves : 1("pop-os.8419")
+Slaves : 1("pop-os.18090")
 Pstream initialized with:
     floatTransfer      : 0
     nProcsSimpleSum    : 0
@@ -54,7 +54,7 @@ DICPCG:  Solving for p, Initial residual = 0.016195085, Final residual = 0.00075
 DICPCG:  Solving for p, Initial residual = 0.0056118172, Final residual = 0.00027464297, No Iterations 16
 DICPCG:  Solving for p, Initial residual = 0.0023986372, Final residual = 9.7249021e-07, No Iterations 130
 time step continuity errors : sum local = 5.9619513e-10, global = -5.7345756e-12, cumulative = -3.9568953e-08
-ExecutionTime = 1.03 s  ClockTime = 1 s
+ExecutionTime = 1.37 s  ClockTime = 1 s
 
 Time = 0.2
 
@@ -70,7 +70,7 @@ DICPCG:  Solving for p, Initial residual = 0.10003412, Final residual = 0.004964
 DICPCG:  Solving for p, Initial residual = 0.054829341, Final residual = 0.002649997, No Iterations 19
 DICPCG:  Solving for p, Initial residual = 0.019405061, Final residual = 9.3046969e-07, No Iterations 225
 time step continuity errors : sum local = 9.5885273e-11, global = 4.1064325e-14, cumulative = -4.5344394e-08
-ExecutionTime = 1.99 s  ClockTime = 2 s
+ExecutionTime = 2.62 s  ClockTime = 3 s
 
 Time = 0.3
 
@@ -86,7 +86,7 @@ DICPCG:  Solving for p, Initial residual = 0.024962146, Final residual = 0.00116
 DICPCG:  Solving for p, Initial residual = 0.010029395, Final residual = 0.00044447037, No Iterations 30
 DICPCG:  Solving for p, Initial residual = 0.0054456231, Final residual = 8.9495753e-07, No Iterations 190
 time step continuity errors : sum local = 3.7466827e-11, global = -1.0061798e-15, cumulative = -4.3634055e-08
-ExecutionTime = 2.68 s  ClockTime = 2 s
+ExecutionTime = 3.58 s  ClockTime = 4 s
 
 Time = 0.4
 
@@ -102,7 +102,7 @@ DICPCG:  Solving for p, Initial residual = 0.0063243243, Final residual = 0.0003
 DICPCG:  Solving for p, Initial residual = 0.003903201, Final residual = 0.00017655652, No Iterations 6
 DICPCG:  Solving for p, Initial residual = 0.0010533139, Final residual = 9.7013863e-07, No Iterations 196
 time step continuity errors : sum local = 2.7943915e-11, global = -6.1310493e-14, cumulative = -4.8617978e-08
-ExecutionTime = 3.55 s  ClockTime = 3 s
+ExecutionTime = 4.9 s  ClockTime = 5 s
 
 Time = 0.5
 
@@ -118,7 +118,7 @@ DICPCG:  Solving for p, Initial residual = 0.0029532059, Final residual = 0.0001
 DICPCG:  Solving for p, Initial residual = 0.0030979681, Final residual = 0.00013434277, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 0.00076290919, Final residual = 9.3579409e-07, No Iterations 180
 time step continuity errors : sum local = 2.1899582e-11, global = -5.5795617e-14, cumulative = -5.2199972e-08
-ExecutionTime = 4.57 s  ClockTime = 4 s
+ExecutionTime = 6.5 s  ClockTime = 7 s
 
 Time = 0.6
 
@@ -134,7 +134,7 @@ DICPCG:  Solving for p, Initial residual = 0.0031928225, Final residual = 0.0001
 DICPCG:  Solving for p, Initial residual = 0.00085131152, Final residual = 4.2015967e-05, No Iterations 41
 DICPCG:  Solving for p, Initial residual = 0.00059890892, Final residual = 9.7335407e-07, No Iterations 164
 time step continuity errors : sum local = 1.9496421e-11, global = 1.7419245e-14, cumulative = -5.2204374e-08
-ExecutionTime = 5.35 s  ClockTime = 5 s
+ExecutionTime = 7.62 s  ClockTime = 8 s
 
 Time = 0.7
 
@@ -150,7 +150,7 @@ DICPCG:  Solving for p, Initial residual = 0.0023283636, Final residual = 0.0001
 DICPCG:  Solving for p, Initial residual = 0.00061843795, Final residual = 3.048817e-05, No Iterations 40
 DICPCG:  Solving for p, Initial residual = 0.00039342075, Final residual = 9.5524709e-07, No Iterations 159
 time step continuity errors : sum local = 1.683061e-11, global = 1.2611855e-14, cumulative = -5.2214192e-08
-ExecutionTime = 6.11 s  ClockTime = 6 s
+ExecutionTime = 8.76 s  ClockTime = 9 s
 
 Time = 0.8
 
@@ -166,7 +166,7 @@ DICPCG:  Solving for p, Initial residual = 0.0017761582, Final residual = 7.9709
 DICPCG:  Solving for p, Initial residual = 0.0004689591, Final residual = 2.3423592e-05, No Iterations 50
 DICPCG:  Solving for p, Initial residual = 0.00030543624, Final residual = 9.5154792e-07, No Iterations 162
 time step continuity errors : sum local = 1.5012464e-11, global = -1.8688932e-14, cumulative = -5.2243513e-08
-ExecutionTime = 6.92 s  ClockTime = 6 s
+ExecutionTime = 9.99 s  ClockTime = 10 s
 
 Time = 0.9
 
@@ -182,7 +182,7 @@ DICPCG:  Solving for p, Initial residual = 0.0009009896, Final residual = 4.3529
 DICPCG:  Solving for p, Initial residual = 0.0008126895, Final residual = 3.9884891e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 0.00020164539, Final residual = 9.3767038e-07, No Iterations 91
 time step continuity errors : sum local = 1.3423952e-11, global = -2.1194573e-12, cumulative = -5.2713533e-08
-ExecutionTime = 7.57 s  ClockTime = 7 s
+ExecutionTime = 10.79 s  ClockTime = 11 s
 
 Time = 1
 
@@ -198,7 +198,7 @@ DICPCG:  Solving for p, Initial residual = 0.00080064804, Final residual = 3.934
 DICPCG:  Solving for p, Initial residual = 0.00059681879, Final residual = 2.784197e-05, No Iterations 6
 DICPCG:  Solving for p, Initial residual = 0.00015111511, Final residual = 9.8099556e-07, No Iterations 95
 time step continuity errors : sum local = 1.2882331e-11, global = -2.1086092e-12, cumulative = -5.2986128e-08
-ExecutionTime = 8.42 s  ClockTime = 8 s
+ExecutionTime = 11.88 s  ClockTime = 12 s
 
 Time = 1.1
 
@@ -214,7 +214,7 @@ DICPCG:  Solving for p, Initial residual = 0.00061295513, Final residual = 3.043
 DICPCG:  Solving for p, Initial residual = 0.00044675152, Final residual = 2.0953087e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 0.00011176619, Final residual = 9.0354039e-07, No Iterations 92
 time step continuity errors : sum local = 1.0970519e-11, global = -1.523005e-12, cumulative = -5.3161942e-08
-ExecutionTime = 9.06 s  ClockTime = 9 s
+ExecutionTime = 12.71 s  ClockTime = 13 s
 
 Time = 1.2
 
@@ -230,7 +230,7 @@ DICPCG:  Solving for p, Initial residual = 0.00055650966, Final residual = 2.675
 DICPCG:  Solving for p, Initial residual = 0.00023195985, Final residual = 1.1085433e-05, No Iterations 130
 DICPCG:  Solving for p, Initial residual = 0.00020518544, Final residual = 9.9139045e-07, No Iterations 155
 time step continuity errors : sum local = 1.1201068e-11, global = 5.2443418e-14, cumulative = -5.3253292e-08
-ExecutionTime = 9.86 s  ClockTime = 9 s
+ExecutionTime = 13.62 s  ClockTime = 14 s
 
 Time = 1.3
 
@@ -246,7 +246,7 @@ DICPCG:  Solving for p, Initial residual = 0.00049837698, Final residual = 2.395
 DICPCG:  Solving for p, Initial residual = 0.00019791978, Final residual = 9.8708419e-06, No Iterations 50
 DICPCG:  Solving for p, Initial residual = 0.0001272523, Final residual = 9.2076466e-07, No Iterations 149
 time step continuity errors : sum local = 9.7326587e-12, global = -1.599848e-14, cumulative = -5.3288994e-08
-ExecutionTime = 10.5 s  ClockTime = 10 s
+ExecutionTime = 14.33 s  ClockTime = 15 s
 
 Time = 1.4
 
@@ -262,7 +262,7 @@ DICPCG:  Solving for p, Initial residual = 0.00047836549, Final residual = 2.141
 DICPCG:  Solving for p, Initial residual = 0.00017770906, Final residual = 8.3520967e-06, No Iterations 46
 DICPCG:  Solving for p, Initial residual = 0.0001070012, Final residual = 9.6869504e-07, No Iterations 142
 time step continuity errors : sum local = 9.6260327e-12, global = -3.0288276e-14, cumulative = -5.3286647e-08
-ExecutionTime = 11.12 s  ClockTime = 11 s
+ExecutionTime = 14.99 s  ClockTime = 15 s
 
 Time = 1.5
 
@@ -278,7 +278,7 @@ DICPCG:  Solving for p, Initial residual = 0.00043920132, Final residual = 2.048
 DICPCG:  Solving for p, Initial residual = 0.00016965457, Final residual = 8.4002664e-06, No Iterations 133
 DICPCG:  Solving for p, Initial residual = 0.00010564381, Final residual = 9.8282734e-07, No Iterations 43
 time step continuity errors : sum local = 9.2160857e-12, global = -8.4095949e-13, cumulative = -5.3259687e-08
-ExecutionTime = 11.92 s  ClockTime = 12 s
+ExecutionTime = 15.79 s  ClockTime = 16 s
 
 Time = 1.6
 
@@ -294,7 +294,7 @@ DICPCG:  Solving for p, Initial residual = 0.00042508436, Final residual = 1.964
 DICPCG:  Solving for p, Initial residual = 0.00016838548, Final residual = 7.5687053e-06, No Iterations 136
 DICPCG:  Solving for p, Initial residual = 0.00012499522, Final residual = 9.9842911e-07, No Iterations 52
 time step continuity errors : sum local = 8.8680263e-12, global = -1.754275e-12, cumulative = -5.321728e-08
-ExecutionTime = 12.55 s  ClockTime = 12 s
+ExecutionTime = 16.48 s  ClockTime = 17 s
 
 Time = 1.7
 
@@ -310,7 +310,7 @@ DICPCG:  Solving for p, Initial residual = 0.00040085481, Final residual = 1.937
 DICPCG:  Solving for p, Initial residual = 0.00022251051, Final residual = 1.0857917e-05, No Iterations 16
 DICPCG:  Solving for p, Initial residual = 7.6020866e-05, Final residual = 9.980698e-07, No Iterations 79
 time step continuity errors : sum local = 8.423094e-12, global = 1.4508295e-12, cumulative = -5.3161269e-08
-ExecutionTime = 13.21 s  ClockTime = 13 s
+ExecutionTime = 17.19 s  ClockTime = 17 s
 
 Time = 1.8
 
@@ -326,7 +326,7 @@ DICPCG:  Solving for p, Initial residual = 0.00038187869, Final residual = 1.823
 DICPCG:  Solving for p, Initial residual = 0.00023357757, Final residual = 1.1156591e-05, No Iterations 16
 DICPCG:  Solving for p, Initial residual = 7.7506423e-05, Final residual = 9.2651578e-07, No Iterations 79
 time step continuity errors : sum local = 7.4511487e-12, global = 1.3175106e-12, cumulative = -5.3096824e-08
-ExecutionTime = 13.85 s  ClockTime = 13 s
+ExecutionTime = 17.86 s  ClockTime = 18 s
 
 Time = 1.9
 
@@ -342,7 +342,7 @@ DICPCG:  Solving for p, Initial residual = 0.00035625, Final residual = 1.733669
 DICPCG:  Solving for p, Initial residual = 0.00021851977, Final residual = 9.9632634e-06, No Iterations 6
 DICPCG:  Solving for p, Initial residual = 6.0593443e-05, Final residual = 9.8755215e-07, No Iterations 84
 time step continuity errors : sum local = 7.5873856e-12, global = 9.1649116e-13, cumulative = -5.303044e-08
-ExecutionTime = 14.5 s  ClockTime = 14 s
+ExecutionTime = 18.53 s  ClockTime = 19 s
 
 Time = 2
 
@@ -358,7 +358,7 @@ DICPCG:  Solving for p, Initial residual = 0.00035019835, Final residual = 1.703
 DICPCG:  Solving for p, Initial residual = 0.00021333767, Final residual = 9.383193e-06, No Iterations 6
 DICPCG:  Solving for p, Initial residual = 5.9467349e-05, Final residual = 9.4974856e-07, No Iterations 83
 time step continuity errors : sum local = 6.987496e-12, global = 7.5077438e-13, cumulative = -5.2970262e-08
-ExecutionTime = 15.33 s  ClockTime = 15 s
+ExecutionTime = 19.36 s  ClockTime = 20 s
 
 Time = 2.1
 
@@ -374,7 +374,7 @@ DICPCG:  Solving for p, Initial residual = 0.00033957154, Final residual = 1.590
 DICPCG:  Solving for p, Initial residual = 0.00021606414, Final residual = 1.0571747e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 5.9662229e-05, Final residual = 9.6581805e-07, No Iterations 82
 time step continuity errors : sum local = 6.8179373e-12, global = 5.3600221e-13, cumulative = -5.2910786e-08
-ExecutionTime = 15.96 s  ClockTime = 16 s
+ExecutionTime = 20.23 s  ClockTime = 20 s
 
 Time = 2.2
 
@@ -390,7 +390,7 @@ DICPCG:  Solving for p, Initial residual = 0.0003253585, Final residual = 1.5877
 DICPCG:  Solving for p, Initial residual = 0.00021769652, Final residual = 1.0699967e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 6.0216992e-05, Final residual = 9.8122521e-07, No Iterations 83
 time step continuity errors : sum local = 6.6590804e-12, global = 5.1561207e-13, cumulative = -5.2851253e-08
-ExecutionTime = 16.61 s  ClockTime = 16 s
+ExecutionTime = 21.01 s  ClockTime = 21 s
 
 Time = 2.3
 
@@ -406,7 +406,7 @@ DICPCG:  Solving for p, Initial residual = 0.00031995607, Final residual = 1.506
 DICPCG:  Solving for p, Initial residual = 0.00022484518, Final residual = 1.0765463e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 6.1100529e-05, Final residual = 9.9509496e-07, No Iterations 82
 time step continuity errors : sum local = 6.50378e-12, global = 3.6506555e-13, cumulative = -5.2790299e-08
-ExecutionTime = 17.24 s  ClockTime = 17 s
+ExecutionTime = 21.66 s  ClockTime = 22 s
 
 Time = 2.4
 
@@ -422,7 +422,7 @@ DICPCG:  Solving for p, Initial residual = 0.00031311575, Final residual = 1.479
 DICPCG:  Solving for p, Initial residual = 0.00021688074, Final residual = 1.0252729e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 5.8972718e-05, Final residual = 9.5202824e-07, No Iterations 83
 time step continuity errors : sum local = 6.0027528e-12, global = 3.9755133e-13, cumulative = -5.2734716e-08
-ExecutionTime = 17.89 s  ClockTime = 17 s
+ExecutionTime = 22.41 s  ClockTime = 23 s
 
 Time = 2.5
 
@@ -438,7 +438,7 @@ DICPCG:  Solving for p, Initial residual = 0.0003103305, Final residual = 1.5065
 DICPCG:  Solving for p, Initial residual = 0.00024776315, Final residual = 1.1486076e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 6.5993063e-05, Final residual = 9.5058745e-07, No Iterations 83
 time step continuity errors : sum local = 5.7896841e-12, global = 2.9787413e-13, cumulative = -5.2668958e-08
-ExecutionTime = 18.71 s  ClockTime = 18 s
+ExecutionTime = 23.37 s  ClockTime = 24 s
 
 Time = 2.6
 
@@ -454,7 +454,7 @@ DICPCG:  Solving for p, Initial residual = 0.00027859963, Final residual = 1.384
 DICPCG:  Solving for p, Initial residual = 0.00024261353, Final residual = 1.0162338e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 6.3708984e-05, Final residual = 9.6982721e-07, No Iterations 79
 time step continuity errors : sum local = 5.7132917e-12, global = 2.3676093e-13, cumulative = -5.2604434e-08
-ExecutionTime = 19.35 s  ClockTime = 19 s
+ExecutionTime = 24.36 s  ClockTime = 25 s
 
 Time = 2.7
 
@@ -470,7 +470,7 @@ DICPCG:  Solving for p, Initial residual = 0.00026846469, Final residual = 1.299
 DICPCG:  Solving for p, Initial residual = 0.00025188461, Final residual = 1.0286493e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 6.5708567e-05, Final residual = 9.5885674e-07, No Iterations 59
 time step continuity errors : sum local = 5.4701674e-12, global = 1.2891656e-13, cumulative = -5.253836e-08
-ExecutionTime = 19.96 s  ClockTime = 20 s
+ExecutionTime = 25.04 s  ClockTime = 25 s
 
 Time = 2.8
 
@@ -486,7 +486,7 @@ DICPCG:  Solving for p, Initial residual = 0.0002708174, Final residual = 1.3468
 DICPCG:  Solving for p, Initial residual = 0.00026092049, Final residual = 1.2862203e-05, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 6.7412511e-05, Final residual = 9.6710188e-07, No Iterations 69
 time step continuity errors : sum local = 5.3479322e-12, global = 1.3292517e-13, cumulative = -5.2471638e-08
-ExecutionTime = 20.58 s  ClockTime = 20 s
+ExecutionTime = 25.79 s  ClockTime = 26 s
 
 Time = 2.9
 
@@ -502,7 +502,7 @@ DICPCG:  Solving for p, Initial residual = 0.00026365836, Final residual = 1.295
 DICPCG:  Solving for p, Initial residual = 0.00024706862, Final residual = 1.0201981e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 6.455792e-05, Final residual = 9.9716169e-07, No Iterations 57
 time step continuity errors : sum local = 5.3532049e-12, global = 1.2336048e-13, cumulative = -5.2411897e-08
-ExecutionTime = 21.18 s  ClockTime = 21 s
+ExecutionTime = 26.44 s  ClockTime = 27 s
 
 Time = 3
 
@@ -518,7 +518,7 @@ DICPCG:  Solving for p, Initial residual = 0.00025333259, Final residual = 1.222
 DICPCG:  Solving for p, Initial residual = 0.00024344012, Final residual = 1.205574e-05, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 6.2950974e-05, Final residual = 9.8459413e-07, No Iterations 73
 time step continuity errors : sum local = 5.1371313e-12, global = 1.3442082e-13, cumulative = -5.23552e-08
-ExecutionTime = 21.99 s  ClockTime = 22 s
+ExecutionTime = 27.35 s  ClockTime = 28 s
 
 Time = 3.1
 
@@ -534,7 +534,7 @@ DICPCG:  Solving for p, Initial residual = 0.00024753188, Final residual = 1.210
 DICPCG:  Solving for p, Initial residual = 0.00024649263, Final residual = 1.2091635e-05, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 6.3345112e-05, Final residual = 9.9750134e-07, No Iterations 55
 time step continuity errors : sum local = 5.064117e-12, global = 3.5615797e-14, cumulative = -5.2298746e-08
-ExecutionTime = 22.59 s  ClockTime = 22 s
+ExecutionTime = 28.18 s  ClockTime = 29 s
 
 Time = 3.2
 
@@ -550,7 +550,7 @@ DICPCG:  Solving for p, Initial residual = 0.00024582508, Final residual = 1.205
 DICPCG:  Solving for p, Initial residual = 0.00025328431, Final residual = 1.0170457e-05, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 6.5614175e-05, Final residual = 9.8919018e-07, No Iterations 55
 time step continuity errors : sum local = 4.8902917e-12, global = 5.9058115e-14, cumulative = -5.2241265e-08
-ExecutionTime = 23.19 s  ClockTime = 23 s
+ExecutionTime = 28.93 s  ClockTime = 29 s
 
 Time = 3.3
 
@@ -566,7 +566,7 @@ DICPCG:  Solving for p, Initial residual = 0.00024038193, Final residual = 1.149
 DICPCG:  Solving for p, Initial residual = 0.00024914364, Final residual = 1.2276056e-05, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 6.3641951e-05, Final residual = 9.394502e-07, No Iterations 47
 time step continuity errors : sum local = 4.5267681e-12, global = 3.9512158e-14, cumulative = -5.218756e-08
-ExecutionTime = 23.77 s  ClockTime = 23 s
+ExecutionTime = 29.6 s  ClockTime = 30 s
 
 Time = 3.4
 
@@ -582,7 +582,7 @@ DICPCG:  Solving for p, Initial residual = 0.00023267185, Final residual = 1.127
 DICPCG:  Solving for p, Initial residual = 0.00024667289, Final residual = 9.9175447e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 6.3645582e-05, Final residual = 9.7692233e-07, No Iterations 47
 time step continuity errors : sum local = 4.5926467e-12, global = 3.3145665e-14, cumulative = -5.2135051e-08
-ExecutionTime = 24.36 s  ClockTime = 24 s
+ExecutionTime = 30.38 s  ClockTime = 31 s
 
 Time = 3.5
 
@@ -598,7 +598,7 @@ DICPCG:  Solving for p, Initial residual = 0.0002344466, Final residual = 1.0818
 DICPCG:  Solving for p, Initial residual = 0.00024257434, Final residual = 1.1851968e-05, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 6.1847155e-05, Final residual = 9.0841776e-07, No Iterations 47
 time step continuity errors : sum local = 4.1690824e-12, global = 1.5221161e-14, cumulative = -5.2085488e-08
-ExecutionTime = 25.12 s  ClockTime = 25 s
+ExecutionTime = 31.22 s  ClockTime = 32 s
 
 Time = 3.6
 
@@ -614,7 +614,7 @@ DICPCG:  Solving for p, Initial residual = 0.00022599891, Final residual = 1.037
 DICPCG:  Solving for p, Initial residual = 0.00023981644, Final residual = 1.1899357e-05, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 6.1036102e-05, Final residual = 9.4674956e-07, No Iterations 45
 time step continuity errors : sum local = 4.245305e-12, global = 1.0140319e-14, cumulative = -5.2037722e-08
-ExecutionTime = 25.71 s  ClockTime = 25 s
+ExecutionTime = 31.88 s  ClockTime = 32 s
 
 Time = 3.7
 
@@ -630,7 +630,7 @@ DICPCG:  Solving for p, Initial residual = 0.00022134893, Final residual = 1.051
 DICPCG:  Solving for p, Initial residual = 0.00023948943, Final residual = 1.1907547e-05, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 6.0895495e-05, Final residual = 9.3287646e-07, No Iterations 45
 time step continuity errors : sum local = 4.0905244e-12, global = 1.4218975e-14, cumulative = -5.1990587e-08
-ExecutionTime = 26.29 s  ClockTime = 26 s
+ExecutionTime = 32.52 s  ClockTime = 33 s
 
 Time = 3.8
 
@@ -646,7 +646,7 @@ DICPCG:  Solving for p, Initial residual = 0.00022502235, Final residual = 1.090
 DICPCG:  Solving for p, Initial residual = 0.00023934301, Final residual = 9.7295476e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 6.147486e-05, Final residual = 9.5204299e-07, No Iterations 45
 time step continuity errors : sum local = 4.0852568e-12, global = 4.2573671e-14, cumulative = -5.1945071e-08
-ExecutionTime = 26.88 s  ClockTime = 27 s
+ExecutionTime = 33.31 s  ClockTime = 34 s
 
 Time = 3.9
 
@@ -662,7 +662,7 @@ DICPCG:  Solving for p, Initial residual = 0.00021957524, Final residual = 1.045
 DICPCG:  Solving for p, Initial residual = 0.0002338861, Final residual = 9.4395533e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 5.9995729e-05, Final residual = 9.849448e-07, No Iterations 44
 time step continuity errors : sum local = 4.1389669e-12, global = 7.873544e-15, cumulative = -5.1901418e-08
-ExecutionTime = 27.46 s  ClockTime = 27 s
+ExecutionTime = 34.03 s  ClockTime = 34 s
 
 Time = 4
 
@@ -678,7 +678,7 @@ DICPCG:  Solving for p, Initial residual = 0.00021840193, Final residual = 1.035
 DICPCG:  Solving for p, Initial residual = 0.00023328417, Final residual = 9.4536523e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 5.9933242e-05, Final residual = 9.4082947e-07, No Iterations 45
 time step continuity errors : sum local = 3.8739133e-12, global = 2.6156438e-14, cumulative = -5.1858246e-08
-ExecutionTime = 28.23 s  ClockTime = 28 s
+ExecutionTime = 34.97 s  ClockTime = 35 s
 
 Time = 4.1
 
@@ -694,7 +694,7 @@ DICPCG:  Solving for p, Initial residual = 0.0002085958, Final residual = 9.6705
 DICPCG:  Solving for p, Initial residual = 0.00022395245, Final residual = 1.1165554e-05, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 5.6908045e-05, Final residual = 9.4246119e-07, No Iterations 45
 time step continuity errors : sum local = 3.8048065e-12, global = 9.2995484e-15, cumulative = -5.1817731e-08
-ExecutionTime = 28.82 s  ClockTime = 28 s
+ExecutionTime = 35.67 s  ClockTime = 36 s
 
 Time = 4.2
 
@@ -710,7 +710,7 @@ DICPCG:  Solving for p, Initial residual = 0.00020945693, Final residual = 1.002
 DICPCG:  Solving for p, Initial residual = 0.00021805202, Final residual = 8.8562409e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 5.6249271e-05, Final residual = 9.7500178e-07, No Iterations 40
 time step continuity errors : sum local = 3.8614969e-12, global = -2.7895996e-14, cumulative = -5.1779722e-08
-ExecutionTime = 29.4 s  ClockTime = 29 s
+ExecutionTime = 36.39 s  ClockTime = 37 s
 
 Time = 4.3
 
@@ -726,7 +726,7 @@ DICPCG:  Solving for p, Initial residual = 0.00020744412, Final residual = 9.571
 DICPCG:  Solving for p, Initial residual = 0.00021077134, Final residual = 1.0487805e-05, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 5.3715731e-05, Final residual = 9.6674115e-07, No Iterations 45
 time step continuity errors : sum local = 3.7584274e-12, global = -1.5602819e-14, cumulative = -5.1744342e-08
-ExecutionTime = 29.98 s  ClockTime = 30 s
+ExecutionTime = 37.1 s  ClockTime = 37 s
 
 Time = 4.4
 
@@ -742,7 +742,7 @@ DICPCG:  Solving for p, Initial residual = 0.00020501555, Final residual = 9.508
 DICPCG:  Solving for p, Initial residual = 0.00021036447, Final residual = 1.0513949e-05, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 5.373442e-05, Final residual = 9.9796661e-07, No Iterations 43
 time step continuity errors : sum local = 3.8105408e-12, global = -4.5438575e-14, cumulative = -5.1709349e-08
-ExecutionTime = 30.57 s  ClockTime = 30 s
+ExecutionTime = 37.79 s  ClockTime = 38 s
 
 Time = 4.5
 
@@ -758,7 +758,7 @@ DICPCG:  Solving for p, Initial residual = 0.00020196993, Final residual = 1.004
 DICPCG:  Solving for p, Initial residual = 0.00020767446, Final residual = 8.5598874e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 5.384737e-05, Final residual = 9.5259129e-07, No Iterations 46
 time step continuity errors : sum local = 3.5737902e-12, global = -5.0440173e-16, cumulative = -5.1674978e-08
-ExecutionTime = 31.34 s  ClockTime = 31 s
+ExecutionTime = 38.74 s  ClockTime = 39 s
 
 Time = 4.6
 
@@ -774,7 +774,7 @@ DICPCG:  Solving for p, Initial residual = 0.00019925614, Final residual = 9.648
 DICPCG:  Solving for p, Initial residual = 0.00019127542, Final residual = 9.4313192e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.9276382e-05, Final residual = 9.7401918e-07, No Iterations 64
 time step continuity errors : sum local = 3.5924115e-12, global = 1.626333e-14, cumulative = -5.1644694e-08
-ExecutionTime = 31.96 s  ClockTime = 32 s
+ExecutionTime = 39.54 s  ClockTime = 40 s
 
 Time = 4.7
 
@@ -790,7 +790,7 @@ DICPCG:  Solving for p, Initial residual = 0.00019278285, Final residual = 9.138
 DICPCG:  Solving for p, Initial residual = 0.00019291494, Final residual = 9.4478165e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.9474787e-05, Final residual = 9.7848798e-07, No Iterations 45
 time step continuity errors : sum local = 3.5496275e-12, global = -4.6174606e-15, cumulative = -5.1614106e-08
-ExecutionTime = 32.54 s  ClockTime = 32 s
+ExecutionTime = 40.24 s  ClockTime = 41 s
 
 Time = 4.8
 
@@ -806,7 +806,7 @@ DICPCG:  Solving for p, Initial residual = 0.00019512531, Final residual = 9.704
 DICPCG:  Solving for p, Initial residual = 0.00019678925, Final residual = 8.1045481e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 5.1085977e-05, Final residual = 9.9773151e-07, No Iterations 57
 time step continuity errors : sum local = 3.5609063e-12, global = 2.4401953e-14, cumulative = -5.1583513e-08
-ExecutionTime = 33.14 s  ClockTime = 33 s
+ExecutionTime = 40.93 s  ClockTime = 41 s
 
 Time = 4.9
 
@@ -822,7 +822,7 @@ DICPCG:  Solving for p, Initial residual = 0.00019853773, Final residual = 9.885
 DICPCG:  Solving for p, Initial residual = 0.0002056639, Final residual = 8.2954193e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 5.3073034e-05, Final residual = 9.7738461e-07, No Iterations 45
 time step continuity errors : sum local = 3.432993e-12, global = 2.0499884e-14, cumulative = -5.1551008e-08
-ExecutionTime = 33.73 s  ClockTime = 33 s
+ExecutionTime = 41.54 s  ClockTime = 42 s
 
 Time = 5
 
@@ -838,7 +838,7 @@ DICPCG:  Solving for p, Initial residual = 0.0001837155, Final residual = 8.9885
 DICPCG:  Solving for p, Initial residual = 0.00018552097, Final residual = 9.0894499e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.756715e-05, Final residual = 9.5092809e-07, No Iterations 56
 time step continuity errors : sum local = 3.2899141e-12, global = 3.4920522e-14, cumulative = -5.1522519e-08
-ExecutionTime = 34.51 s  ClockTime = 34 s
+ExecutionTime = 42.38 s  ClockTime = 43 s
 
 Time = 5.1
 
@@ -854,7 +854,7 @@ DICPCG:  Solving for p, Initial residual = 0.00018440298, Final residual = 8.773
 DICPCG:  Solving for p, Initial residual = 0.00019391271, Final residual = 9.3201371e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.9211672e-05, Final residual = 9.9815664e-07, No Iterations 33
 time step continuity errors : sum local = 3.4026529e-12, global = 1.6332736e-14, cumulative = -5.1492799e-08
-ExecutionTime = 35.07 s  ClockTime = 35 s
+ExecutionTime = 43.12 s  ClockTime = 44 s
 
 Time = 5.2
 
@@ -870,7 +870,7 @@ DICPCG:  Solving for p, Initial residual = 0.00017965294, Final residual = 8.260
 DICPCG:  Solving for p, Initial residual = 0.0002041778, Final residual = 9.9332669e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 5.1395947e-05, Final residual = 9.6934048e-07, No Iterations 32
 time step continuity errors : sum local = 3.2564147e-12, global = 7.1282665e-15, cumulative = -5.1461243e-08
-ExecutionTime = 35.64 s  ClockTime = 35 s
+ExecutionTime = 43.93 s  ClockTime = 44 s
 
 Time = 5.3
 
@@ -886,7 +886,7 @@ DICPCG:  Solving for p, Initial residual = 0.00018319268, Final residual = 9.099
 DICPCG:  Solving for p, Initial residual = 0.00019799384, Final residual = 9.7429704e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 5.0350283e-05, Final residual = 9.8995481e-07, No Iterations 46
 time step continuity errors : sum local = 3.2782218e-12, global = 4.5179488e-14, cumulative = -5.143149e-08
-ExecutionTime = 36.23 s  ClockTime = 36 s
+ExecutionTime = 44.92 s  ClockTime = 45 s
 
 Time = 5.4
 
@@ -902,7 +902,7 @@ DICPCG:  Solving for p, Initial residual = 0.00018413858, Final residual = 9.054
 DICPCG:  Solving for p, Initial residual = 0.00020210845, Final residual = 9.73333e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 5.1272476e-05, Final residual = 9.7882118e-07, No Iterations 32
 time step continuity errors : sum local = 3.1966708e-12, global = 1.3501213e-14, cumulative = -5.1401296e-08
-ExecutionTime = 36.79 s  ClockTime = 36 s
+ExecutionTime = 45.68 s  ClockTime = 46 s
 
 Time = 5.5
 
@@ -918,7 +918,7 @@ DICPCG:  Solving for p, Initial residual = 0.00018384231, Final residual = 8.882
 DICPCG:  Solving for p, Initial residual = 0.00019266042, Final residual = 9.3434368e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.9125111e-05, Final residual = 9.8758916e-07, No Iterations 39
 time step continuity errors : sum local = 3.1819672e-12, global = 2.4275161e-14, cumulative = -5.1373213e-08
-ExecutionTime = 37.55 s  ClockTime = 37 s
+ExecutionTime = 46.75 s  ClockTime = 47 s
 
 Time = 5.6
 
@@ -934,7 +934,7 @@ DICPCG:  Solving for p, Initial residual = 0.00018255735, Final residual = 9.021
 DICPCG:  Solving for p, Initial residual = 0.00019009681, Final residual = 9.3562526e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.8652838e-05, Final residual = 9.9497133e-07, No Iterations 48
 time step continuity errors : sum local = 3.1638183e-12, global = 3.2349348e-14, cumulative = -5.1345846e-08
-ExecutionTime = 38.14 s  ClockTime = 38 s
+ExecutionTime = 47.62 s  ClockTime = 48 s
 
 Time = 5.7
 
@@ -950,7 +950,7 @@ DICPCG:  Solving for p, Initial residual = 0.00018115862, Final residual = 8.577
 DICPCG:  Solving for p, Initial residual = 0.00018320934, Final residual = 8.8729998e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.716084e-05, Final residual = 9.8607756e-07, No Iterations 48
 time step continuity errors : sum local = 3.09557e-12, global = 4.6578077e-14, cumulative = -5.131984e-08
-ExecutionTime = 38.73 s  ClockTime = 38 s
+ExecutionTime = 48.47 s  ClockTime = 49 s
 
 Time = 5.8
 
@@ -966,7 +966,7 @@ DICPCG:  Solving for p, Initial residual = 0.00017614488, Final residual = 8.741
 DICPCG:  Solving for p, Initial residual = 0.00018251219, Final residual = 8.9844575e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.6839172e-05, Final residual = 9.936837e-07, No Iterations 47
 time step continuity errors : sum local = 3.0805826e-12, global = 3.6062093e-14, cumulative = -5.1294167e-08
-ExecutionTime = 39.31 s  ClockTime = 39 s
+ExecutionTime = 49.43 s  ClockTime = 50 s
 
 Time = 5.9
 
@@ -982,7 +982,7 @@ DICPCG:  Solving for p, Initial residual = 0.0001724202, Final residual = 8.4564
 DICPCG:  Solving for p, Initial residual = 0.0001659356, Final residual = 8.1252892e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.2715012e-05, Final residual = 9.6255438e-07, No Iterations 61
 time step continuity errors : sum local = 2.9481137e-12, global = 5.3905483e-14, cumulative = -5.1271491e-08
-ExecutionTime = 39.92 s  ClockTime = 40 s
+ExecutionTime = 50.26 s  ClockTime = 51 s
 
 Time = 6
 
@@ -998,7 +998,7 @@ DICPCG:  Solving for p, Initial residual = 0.00017556923, Final residual = 8.325
 DICPCG:  Solving for p, Initial residual = 0.00017209148, Final residual = 8.4326924e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.4184211e-05, Final residual = 9.991514e-07, No Iterations 55
 time step continuity errors : sum local = 3.0242249e-12, global = 2.6294521e-14, cumulative = -5.1248066e-08
-ExecutionTime = 40.69 s  ClockTime = 40 s
+ExecutionTime = 51.3 s  ClockTime = 52 s
 
 Time = 6.1
 
@@ -1014,7 +1014,7 @@ DICPCG:  Solving for p, Initial residual = 0.00017070298, Final residual = 8.332
 DICPCG:  Solving for p, Initial residual = 0.00017392478, Final residual = 8.5352851e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.4692793e-05, Final residual = 9.7899261e-07, No Iterations 47
 time step continuity errors : sum local = 2.928996e-12, global = 3.2150204e-14, cumulative = -5.1224334e-08
-ExecutionTime = 41.28 s  ClockTime = 41 s
+ExecutionTime = 52.12 s  ClockTime = 53 s
 
 Time = 6.2
 
@@ -1030,7 +1030,7 @@ DICPCG:  Solving for p, Initial residual = 0.00017087969, Final residual = 8.418
 DICPCG:  Solving for p, Initial residual = 0.0001764408, Final residual = 8.6891394e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.5227427e-05, Final residual = 9.8838794e-07, No Iterations 52
 time step continuity errors : sum local = 2.9233445e-12, global = 4.6621966e-14, cumulative = -5.1200472e-08
-ExecutionTime = 41.88 s  ClockTime = 42 s
+ExecutionTime = 52.93 s  ClockTime = 54 s
 
 Time = 6.3
 
@@ -1046,7 +1046,7 @@ DICPCG:  Solving for p, Initial residual = 0.00017216982, Final residual = 8.115
 DICPCG:  Solving for p, Initial residual = 0.00018017839, Final residual = 8.8402461e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.594596e-05, Final residual = 9.9426426e-07, No Iterations 46
 time step continuity errors : sum local = 2.9078046e-12, global = 5.0383102e-14, cumulative = -5.1176364e-08
-ExecutionTime = 42.47 s  ClockTime = 42 s
+ExecutionTime = 53.73 s  ClockTime = 54 s
 
 Time = 6.4
 
@@ -1062,7 +1062,7 @@ DICPCG:  Solving for p, Initial residual = 0.00016812522, Final residual = 8.267
 DICPCG:  Solving for p, Initial residual = 0.00016929672, Final residual = 8.3296695e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.3429894e-05, Final residual = 9.7048161e-07, No Iterations 55
 time step continuity errors : sum local = 2.8073569e-12, global = 5.300217e-14, cumulative = -5.115419e-08
-ExecutionTime = 43.09 s  ClockTime = 43 s
+ExecutionTime = 54.57 s  ClockTime = 55 s
 
 Time = 6.5
 
@@ -1078,7 +1078,7 @@ DICPCG:  Solving for p, Initial residual = 0.00017166691, Final residual = 8.326
 DICPCG:  Solving for p, Initial residual = 0.00016254612, Final residual = 6.6197457e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 4.2165453e-05, Final residual = 9.8541488e-07, No Iterations 59
 time step continuity errors : sum local = 2.8204584e-12, global = 7.1361038e-14, cumulative = -5.1133141e-08
-ExecutionTime = 43.87 s  ClockTime = 44 s
+ExecutionTime = 55.63 s  ClockTime = 56 s
 
 Time = 6.6
 
@@ -1094,7 +1094,7 @@ DICPCG:  Solving for p, Initial residual = 0.00016532289, Final residual = 8.116
 DICPCG:  Solving for p, Initial residual = 0.00015853922, Final residual = 7.8948069e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.0597032e-05, Final residual = 9.6648366e-07, No Iterations 70
 time step continuity errors : sum local = 2.7381268e-12, global = 6.9630258e-14, cumulative = -5.11127e-08
-ExecutionTime = 44.5 s  ClockTime = 44 s
+ExecutionTime = 56.46 s  ClockTime = 57 s
 
 Time = 6.7
 
@@ -1110,7 +1110,7 @@ DICPCG:  Solving for p, Initial residual = 0.00016065977, Final residual = 7.779
 DICPCG:  Solving for p, Initial residual = 0.0001574433, Final residual = 7.6245168e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 4.0093532e-05, Final residual = 9.7845412e-07, No Iterations 56
 time step continuity errors : sum local = 2.7442052e-12, global = 4.8802857e-14, cumulative = -5.1092593e-08
-ExecutionTime = 45.1 s  ClockTime = 45 s
+ExecutionTime = 57.23 s  ClockTime = 58 s
 
 Time = 6.8
 
@@ -1126,7 +1126,7 @@ DICPCG:  Solving for p, Initial residual = 0.00016676678, Final residual = 8.165
 DICPCG:  Solving for p, Initial residual = 0.00015130783, Final residual = 7.3984495e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.8989404e-05, Final residual = 9.5354951e-07, No Iterations 60
 time step continuity errors : sum local = 2.6480625e-12, global = 6.7665203e-14, cumulative = -5.1073618e-08
-ExecutionTime = 45.69 s  ClockTime = 45 s
+ExecutionTime = 58.01 s  ClockTime = 59 s
 
 Time = 6.9
 
@@ -1142,7 +1142,7 @@ DICPCG:  Solving for p, Initial residual = 0.00016457526, Final residual = 7.910
 DICPCG:  Solving for p, Initial residual = 0.00014599699, Final residual = 7.2655802e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.7827187e-05, Final residual = 9.7275882e-07, No Iterations 59
 time step continuity errors : sum local = 2.6753155e-12, global = 7.7723769e-14, cumulative = -5.1055684e-08
-ExecutionTime = 46.29 s  ClockTime = 46 s
+ExecutionTime = 58.77 s  ClockTime = 59 s
 
 Time = 7
 
@@ -1158,7 +1158,7 @@ DICPCG:  Solving for p, Initial residual = 0.00016174992, Final residual = 7.991
 DICPCG:  Solving for p, Initial residual = 0.000149955, Final residual = 7.4745306e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.8619749e-05, Final residual = 9.94887e-07, No Iterations 55
 time step continuity errors : sum local = 2.7103115e-12, global = 6.0084893e-14, cumulative = -5.1037625e-08
-ExecutionTime = 47.08 s  ClockTime = 47 s
+ExecutionTime = 59.83 s  ClockTime = 61 s
 
 Time = 7.1
 
@@ -1174,7 +1174,7 @@ DICPCG:  Solving for p, Initial residual = 0.00015752537, Final residual = 7.754
 DICPCG:  Solving for p, Initial residual = 0.00014070229, Final residual = 6.0516004e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 3.6910733e-05, Final residual = 9.9994431e-07, No Iterations 65
 time step continuity errors : sum local = 2.699382e-12, global = 1.3908657e-13, cumulative = -5.101968e-08
-ExecutionTime = 47.66 s  ClockTime = 47 s
+ExecutionTime = 60.69 s  ClockTime = 61 s
 
 Time = 7.2
 
@@ -1190,7 +1190,7 @@ DICPCG:  Solving for p, Initial residual = 0.0001590944, Final residual = 7.9544
 DICPCG:  Solving for p, Initial residual = 0.00014833883, Final residual = 7.3896608e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.8549774e-05, Final residual = 9.3932671e-07, No Iterations 70
 time step continuity errors : sum local = 2.5126148e-12, global = 8.8035636e-14, cumulative = -5.1001789e-08
-ExecutionTime = 48.27 s  ClockTime = 48 s
+ExecutionTime = 61.68 s  ClockTime = 62 s
 
 Time = 7.3
 
@@ -1206,7 +1206,7 @@ DICPCG:  Solving for p, Initial residual = 0.00015960598, Final residual = 7.829
 DICPCG:  Solving for p, Initial residual = 0.00015126521, Final residual = 7.3643159e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.9006603e-05, Final residual = 9.416642e-07, No Iterations 54
 time step continuity errors : sum local = 2.496251e-12, global = 5.6681036e-14, cumulative = -5.0983984e-08
-ExecutionTime = 48.86 s  ClockTime = 49 s
+ExecutionTime = 62.5 s  ClockTime = 63 s
 
 Time = 7.4
 
@@ -1222,7 +1222,7 @@ DICPCG:  Solving for p, Initial residual = 0.00015070744, Final residual = 7.117
 DICPCG:  Solving for p, Initial residual = 0.00014972927, Final residual = 7.2737979e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.849762e-05, Final residual = 9.3351376e-07, No Iterations 56
 time step continuity errors : sum local = 2.4535022e-12, global = 6.5006486e-14, cumulative = -5.0965842e-08
-ExecutionTime = 49.63 s  ClockTime = 49 s
+ExecutionTime = 63.31 s  ClockTime = 64 s
 
 Time = 7.5
 
@@ -1238,7 +1238,7 @@ DICPCG:  Solving for p, Initial residual = 0.00014959211, Final residual = 7.336
 DICPCG:  Solving for p, Initial residual = 0.00014732267, Final residual = 7.1745089e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.7400273e-05, Final residual = 9.6495919e-07, No Iterations 55
 time step continuity errors : sum local = 2.5149145e-12, global = 4.5034731e-14, cumulative = -5.0948347e-08
-ExecutionTime = 50.41 s  ClockTime = 50 s
+ExecutionTime = 64.37 s  ClockTime = 65 s
 
 Time = 7.6
 
@@ -1254,7 +1254,7 @@ DICPCG:  Solving for p, Initial residual = 0.00015120317, Final residual = 7.305
 DICPCG:  Solving for p, Initial residual = 0.00015346523, Final residual = 7.4995721e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.8885748e-05, Final residual = 9.8455179e-07, No Iterations 63
 time step continuity errors : sum local = 2.5446162e-12, global = 6.0635447e-14, cumulative = -5.092968e-08
-ExecutionTime = 51.03 s  ClockTime = 51 s
+ExecutionTime = 65.22 s  ClockTime = 66 s
 
 Time = 7.7
 
@@ -1270,7 +1270,7 @@ DICPCG:  Solving for p, Initial residual = 0.00015525596, Final residual = 7.759
 DICPCG:  Solving for p, Initial residual = 0.00014702552, Final residual = 7.3070485e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.7832627e-05, Final residual = 9.9056839e-07, No Iterations 68
 time step continuity errors : sum local = 2.5390483e-12, global = 8.5488735e-14, cumulative = -5.0912271e-08
-ExecutionTime = 51.67 s  ClockTime = 51 s
+ExecutionTime = 66.07 s  ClockTime = 67 s
 
 Time = 7.8
 
@@ -1286,7 +1286,7 @@ DICPCG:  Solving for p, Initial residual = 0.00015803277, Final residual = 7.869
 DICPCG:  Solving for p, Initial residual = 0.00013643741, Final residual = 6.6200014e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.6269864e-05, Final residual = 9.8609143e-07, No Iterations 69
 time step continuity errors : sum local = 2.5074806e-12, global = 9.6801021e-14, cumulative = -5.0897079e-08
-ExecutionTime = 52.3 s  ClockTime = 52 s
+ExecutionTime = 67.04 s  ClockTime = 68 s
 
 Time = 7.9
 
@@ -1302,7 +1302,7 @@ DICPCG:  Solving for p, Initial residual = 0.00015322828, Final residual = 7.380
 DICPCG:  Solving for p, Initial residual = 0.00013419709, Final residual = 6.6527841e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.5320769e-05, Final residual = 9.9121046e-07, No Iterations 66
 time step continuity errors : sum local = 2.5005971e-12, global = 5.9864165e-14, cumulative = -5.088204e-08
-ExecutionTime = 52.92 s  ClockTime = 53 s
+ExecutionTime = 67.88 s  ClockTime = 69 s
 
 Time = 8
 
@@ -1318,7 +1318,7 @@ DICPCG:  Solving for p, Initial residual = 0.0001458685, Final residual = 7.2078
 DICPCG:  Solving for p, Initial residual = 0.00013481276, Final residual = 5.3744111e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 3.4705393e-05, Final residual = 9.429509e-07, No Iterations 65
 time step continuity errors : sum local = 2.3604793e-12, global = 8.5805863e-14, cumulative = -5.0866341e-08
-ExecutionTime = 53.72 s  ClockTime = 53 s
+ExecutionTime = 68.9 s  ClockTime = 70 s
 
 Time = 8.1
 
@@ -1334,7 +1334,7 @@ DICPCG:  Solving for p, Initial residual = 0.0001451066, Final residual = 7.1583
 DICPCG:  Solving for p, Initial residual = 0.00013760858, Final residual = 6.7369239e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.5380781e-05, Final residual = 9.814672e-07, No Iterations 67
 time step continuity errors : sum local = 2.438588e-12, global = 6.5506671e-14, cumulative = -5.0850798e-08
-ExecutionTime = 54.36 s  ClockTime = 54 s
+ExecutionTime = 69.64 s  ClockTime = 70 s
 
 Time = 8.2
 
@@ -1350,7 +1350,7 @@ DICPCG:  Solving for p, Initial residual = 0.0001635484, Final residual = 7.7547
 DICPCG:  Solving for p, Initial residual = 0.00015139386, Final residual = 6.408432e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 3.9931766e-05, Final residual = 9.7151254e-07, No Iterations 66
 time step continuity errors : sum local = 2.3955074e-12, global = 7.9825582e-14, cumulative = -5.083378e-08
-ExecutionTime = 54.98 s  ClockTime = 55 s
+ExecutionTime = 70.42 s  ClockTime = 71 s
 
 Time = 8.3
 
@@ -1366,7 +1366,7 @@ DICPCG:  Solving for p, Initial residual = 0.00015339172, Final residual = 7.464
 DICPCG:  Solving for p, Initial residual = 0.00014383397, Final residual = 7.0927434e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.6851597e-05, Final residual = 9.218627e-07, No Iterations 70
 time step continuity errors : sum local = 2.256028e-12, global = 8.9748339e-14, cumulative = -5.0817531e-08
-ExecutionTime = 55.61 s  ClockTime = 55 s
+ExecutionTime = 71.21 s  ClockTime = 72 s
 
 Time = 8.4
 
@@ -1382,7 +1382,7 @@ DICPCG:  Solving for p, Initial residual = 0.00014828969, Final residual = 7.265
 DICPCG:  Solving for p, Initial residual = 0.00013757087, Final residual = 6.8033606e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.5219594e-05, Final residual = 9.7503532e-07, No Iterations 66
 time step continuity errors : sum local = 2.368356e-12, global = 6.2909344e-14, cumulative = -5.0801901e-08
-ExecutionTime = 56.22 s  ClockTime = 56 s
+ExecutionTime = 72.04 s  ClockTime = 73 s
 
 Time = 8.5
 
@@ -1398,7 +1398,7 @@ DICPCG:  Solving for p, Initial residual = 0.00015301503, Final residual = 7.319
 DICPCG:  Solving for p, Initial residual = 0.00015018695, Final residual = 7.3353748e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.847129e-05, Final residual = 9.8917457e-07, No Iterations 66
 time step continuity errors : sum local = 2.3850067e-12, global = 5.9000715e-14, cumulative = -5.0785101e-08
-ExecutionTime = 57.02 s  ClockTime = 57 s
+ExecutionTime = 73.05 s  ClockTime = 74 s
 
 Time = 8.6
 
@@ -1414,7 +1414,7 @@ DICPCG:  Solving for p, Initial residual = 0.00014564591, Final residual = 6.961
 DICPCG:  Solving for p, Initial residual = 0.00014841875, Final residual = 7.2694067e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.7696659e-05, Final residual = 9.9345331e-07, No Iterations 65
 time step continuity errors : sum local = 2.3781104e-12, global = 6.0145288e-14, cumulative = -5.076852e-08
-ExecutionTime = 57.64 s  ClockTime = 57 s
+ExecutionTime = 73.96 s  ClockTime = 75 s
 
 Time = 8.7
 
@@ -1430,7 +1430,7 @@ DICPCG:  Solving for p, Initial residual = 0.00014325418, Final residual = 6.677
 DICPCG:  Solving for p, Initial residual = 0.0001429835, Final residual = 6.9724785e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.6797838e-05, Final residual = 9.9815084e-07, No Iterations 45
 time step continuity errors : sum local = 2.3723719e-12, global = 4.0407497e-14, cumulative = -5.0752644e-08
-ExecutionTime = 58.25 s  ClockTime = 58 s
+ExecutionTime = 75.3 s  ClockTime = 76 s
 
 Time = 8.8
 
@@ -1446,7 +1446,7 @@ DICPCG:  Solving for p, Initial residual = 0.00013438165, Final residual = 6.546
 DICPCG:  Solving for p, Initial residual = 0.00013712275, Final residual = 6.7035647e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.4911161e-05, Final residual = 9.6842632e-07, No Iterations 50
 time step continuity errors : sum local = 2.2860108e-12, global = 3.9574147e-14, cumulative = -5.0737518e-08
-ExecutionTime = 58.85 s  ClockTime = 59 s
+ExecutionTime = 76.18 s  ClockTime = 77 s
 
 Time = 8.9
 
@@ -1462,7 +1462,7 @@ DICPCG:  Solving for p, Initial residual = 0.00013256719, Final residual = 6.476
 DICPCG:  Solving for p, Initial residual = 0.00013724966, Final residual = 6.7208028e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.4861539e-05, Final residual = 9.2581919e-07, No Iterations 46
 time step continuity errors : sum local = 2.1709439e-12, global = 4.2552045e-14, cumulative = -5.0722485e-08
-ExecutionTime = 59.45 s  ClockTime = 59 s
+ExecutionTime = 77.19 s  ClockTime = 78 s
 
 Time = 9
 
@@ -1478,7 +1478,7 @@ DICPCG:  Solving for p, Initial residual = 0.00012608618, Final residual = 6.009
 DICPCG:  Solving for p, Initial residual = 0.00012381916, Final residual = 5.6259696e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.1388643e-05, Final residual = 9.6330397e-07, No Iterations 54
 time step continuity errors : sum local = 2.2438336e-12, global = 8.7542141e-14, cumulative = -5.0708857e-08
-ExecutionTime = 60.22 s  ClockTime = 60 s
+ExecutionTime = 78.53 s  ClockTime = 80 s
 
 Time = 9.1
 
@@ -1494,7 +1494,7 @@ DICPCG:  Solving for p, Initial residual = 0.00012659467, Final residual = 5.867
 DICPCG:  Solving for p, Initial residual = 0.00012390294, Final residual = 5.5842607e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.1322496e-05, Final residual = 9.9534282e-07, No Iterations 47
 time step continuity errors : sum local = 2.3033252e-12, global = 6.2509989e-14, cumulative = -5.0695732e-08
-ExecutionTime = 60.8 s  ClockTime = 61 s
+ExecutionTime = 79.35 s  ClockTime = 81 s
 
 Time = 9.2
 
@@ -1510,7 +1510,7 @@ DICPCG:  Solving for p, Initial residual = 0.00013148795, Final residual = 6.520
 DICPCG:  Solving for p, Initial residual = 0.00012047962, Final residual = 5.0924474e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 3.164819e-05, Final residual = 9.9403344e-07, No Iterations 53
 time step continuity errors : sum local = 2.2856685e-12, global = 2.5616785e-14, cumulative = -5.068335e-08
-ExecutionTime = 61.39 s  ClockTime = 61 s
+ExecutionTime = 80.35 s  ClockTime = 82 s
 
 Time = 9.3
 
@@ -1526,7 +1526,7 @@ DICPCG:  Solving for p, Initial residual = 0.00015501792, Final residual = 7.645
 DICPCG:  Solving for p, Initial residual = 0.00013175391, Final residual = 5.7848308e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 3.5984661e-05, Final residual = 9.7829918e-07, No Iterations 48
 time step continuity errors : sum local = 2.2347572e-12, global = 4.036879e-14, cumulative = -5.0671732e-08
-ExecutionTime = 61.97 s  ClockTime = 62 s
+ExecutionTime = 81.25 s  ClockTime = 83 s
 
 Time = 9.4
 
@@ -1542,7 +1542,7 @@ DICPCG:  Solving for p, Initial residual = 0.00014502501, Final residual = 6.754
 DICPCG:  Solving for p, Initial residual = 0.00012129796, Final residual = 6.0606883e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.165017e-05, Final residual = 9.7277106e-07, No Iterations 44
 time step continuity errors : sum local = 2.207643e-12, global = 2.6711776e-14, cumulative = -5.0659852e-08
-ExecutionTime = 62.56 s  ClockTime = 62 s
+ExecutionTime = 82.13 s  ClockTime = 83 s
 
 Time = 9.5
 
@@ -1558,7 +1558,7 @@ DICPCG:  Solving for p, Initial residual = 0.00013797166, Final residual = 6.587
 DICPCG:  Solving for p, Initial residual = 0.00012305709, Final residual = 5.6368483e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.1753984e-05, Final residual = 9.760451e-07, No Iterations 54
 time step continuity errors : sum local = 2.2011262e-12, global = 1.0030293e-13, cumulative = -5.0647827e-08
-ExecutionTime = 63.33 s  ClockTime = 63 s
+ExecutionTime = 83.11 s  ClockTime = 84 s
 
 Time = 9.6
 
@@ -1574,7 +1574,7 @@ DICPCG:  Solving for p, Initial residual = 0.00011873772, Final residual = 5.525
 DICPCG:  Solving for p, Initial residual = 0.00011437396, Final residual = 5.2176343e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.9173932e-05, Final residual = 9.6985776e-07, No Iterations 47
 time step continuity errors : sum local = 2.1742408e-12, global = 7.2242475e-14, cumulative = -5.0636178e-08
-ExecutionTime = 63.92 s  ClockTime = 64 s
+ExecutionTime = 84.05 s  ClockTime = 85 s
 
 Time = 9.7
 
@@ -1590,7 +1590,7 @@ DICPCG:  Solving for p, Initial residual = 0.00012394564, Final residual = 5.651
 DICPCG:  Solving for p, Initial residual = 0.00011494209, Final residual = 5.1486335e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.9479343e-05, Final residual = 9.908185e-07, No Iterations 49
 time step continuity errors : sum local = 2.2081193e-12, global = 6.8009272e-14, cumulative = -5.0624533e-08
-ExecutionTime = 64.51 s  ClockTime = 64 s
+ExecutionTime = 84.97 s  ClockTime = 86 s
 
 Time = 9.8
 
@@ -1606,7 +1606,7 @@ DICPCG:  Solving for p, Initial residual = 0.00013088116, Final residual = 6.535
 DICPCG:  Solving for p, Initial residual = 0.00011453371, Final residual = 4.8036892e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 3.0386906e-05, Final residual = 9.6208434e-07, No Iterations 40
 time step continuity errors : sum local = 2.1314025e-12, global = 2.1303853e-14, cumulative = -5.0613321e-08
-ExecutionTime = 65.09 s  ClockTime = 65 s
+ExecutionTime = 86 s  ClockTime = 88 s
 
 Time = 9.9
 
@@ -1622,7 +1622,7 @@ DICPCG:  Solving for p, Initial residual = 0.00011655003, Final residual = 5.813
 DICPCG:  Solving for p, Initial residual = 0.00011230729, Final residual = 5.1605632e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.8919704e-05, Final residual = 9.7446695e-07, No Iterations 51
 time step continuity errors : sum local = 2.1463758e-12, global = 8.912207e-14, cumulative = -5.0602094e-08
-ExecutionTime = 65.67 s  ClockTime = 65 s
+ExecutionTime = 86.91 s  ClockTime = 89 s
 
 Time = 10
 
@@ -1638,7 +1638,7 @@ DICPCG:  Solving for p, Initial residual = 0.00012590161, Final residual = 6.232
 DICPCG:  Solving for p, Initial residual = 0.00011436106, Final residual = 5.6408393e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.9598331e-05, Final residual = 9.8140551e-07, No Iterations 46
 time step continuity errors : sum local = 2.1493508e-12, global = 4.4211018e-14, cumulative = -5.0590818e-08
-ExecutionTime = 66.43 s  ClockTime = 66 s
+ExecutionTime = 88.07 s  ClockTime = 90 s
 
 Time = 10.1
 
@@ -1654,7 +1654,7 @@ DICPCG:  Solving for p, Initial residual = 0.00013049158, Final residual = 6.036
 DICPCG:  Solving for p, Initial residual = 0.00012045805, Final residual = 5.7326129e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.0927285e-05, Final residual = 9.5477319e-07, No Iterations 23
 time step continuity errors : sum local = 2.079014e-12, global = 3.897086e-14, cumulative = -5.0579055e-08
-ExecutionTime = 67 s  ClockTime = 67 s
+ExecutionTime = 88.98 s  ClockTime = 91 s
 
 Time = 10.2
 
@@ -1670,7 +1670,7 @@ DICPCG:  Solving for p, Initial residual = 0.00012183987, Final residual = 5.959
 DICPCG:  Solving for p, Initial residual = 0.00011506869, Final residual = 5.7354778e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.9443363e-05, Final residual = 9.9502102e-07, No Iterations 47
 time step continuity errors : sum local = 2.1546377e-12, global = 3.7990586e-14, cumulative = -5.056743e-08
-ExecutionTime = 67.6 s  ClockTime = 67 s
+ExecutionTime = 90.05 s  ClockTime = 92 s
 
 Time = 10.3
 
@@ -1686,7 +1686,7 @@ DICPCG:  Solving for p, Initial residual = 0.00012929701, Final residual = 6.117
 DICPCG:  Solving for p, Initial residual = 0.00011988794, Final residual = 5.6308729e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 3.0822827e-05, Final residual = 9.2841379e-07, No Iterations 27
 time step continuity errors : sum local = 1.9993899e-12, global = 2.1135627e-14, cumulative = -5.0555805e-08
-ExecutionTime = 68.16 s  ClockTime = 68 s
+ExecutionTime = 90.98 s  ClockTime = 93 s
 
 Time = 10.4
 
@@ -1702,7 +1702,7 @@ DICPCG:  Solving for p, Initial residual = 0.0001160108, Final residual = 5.5879
 DICPCG:  Solving for p, Initial residual = 0.00011153938, Final residual = 5.4620252e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.8545799e-05, Final residual = 9.6631987e-07, No Iterations 43
 time step continuity errors : sum local = 2.070073e-12, global = 3.4123898e-14, cumulative = -5.0544726e-08
-ExecutionTime = 68.75 s  ClockTime = 69 s
+ExecutionTime = 91.91 s  ClockTime = 94 s
 
 Time = 10.5
 
@@ -1718,7 +1718,7 @@ DICPCG:  Solving for p, Initial residual = 0.00011282933, Final residual = 5.627
 DICPCG:  Solving for p, Initial residual = 0.00010463753, Final residual = 5.1423127e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.6581932e-05, Final residual = 9.7016317e-07, No Iterations 40
 time step continuity errors : sum local = 2.067794e-12, global = 1.9734442e-14, cumulative = -5.0534626e-08
-ExecutionTime = 69.52 s  ClockTime = 69 s
+ExecutionTime = 93.09 s  ClockTime = 95 s
 
 Time = 10.6
 
@@ -1734,7 +1734,7 @@ DICPCG:  Solving for p, Initial residual = 0.00011457401, Final residual = 5.370
 DICPCG:  Solving for p, Initial residual = 9.5869177e-05, Final residual = 3.9398263e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 2.4970611e-05, Final residual = 9.5058928e-07, No Iterations 40
 time step continuity errors : sum local = 2.0160309e-12, global = 2.5538834e-14, cumulative = -5.0525925e-08
-ExecutionTime = 70.11 s  ClockTime = 70 s
+ExecutionTime = 94.02 s  ClockTime = 96 s
 
 Time = 10.7
 
@@ -1750,7 +1750,7 @@ DICPCG:  Solving for p, Initial residual = 0.00011864696, Final residual = 5.684
 DICPCG:  Solving for p, Initial residual = 9.7338637e-05, Final residual = 4.4841843e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 2.5847873e-05, Final residual = 9.9628667e-07, No Iterations 54
 time step continuity errors : sum local = 2.1025076e-12, global = 4.870031e-14, cumulative = -5.0517375e-08
-ExecutionTime = 70.71 s  ClockTime = 70 s
+ExecutionTime = 94.98 s  ClockTime = 97 s
 
 Time = 10.8
 
@@ -1766,7 +1766,7 @@ DICPCG:  Solving for p, Initial residual = 0.00011314505, Final residual = 5.646
 DICPCG:  Solving for p, Initial residual = 9.0571274e-05, Final residual = 4.0027598e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 2.4015355e-05, Final residual = 9.826517e-07, No Iterations 44
 time step continuity errors : sum local = 2.0638988e-12, global = 4.1882464e-14, cumulative = -5.0509458e-08
-ExecutionTime = 71.29 s  ClockTime = 71 s
+ExecutionTime = 95.83 s  ClockTime = 98 s
 
 Time = 10.9
 
@@ -1782,7 +1782,7 @@ DICPCG:  Solving for p, Initial residual = 0.00011993001, Final residual = 5.811
 DICPCG:  Solving for p, Initial residual = 9.7293874e-05, Final residual = 4.3148615e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 2.6130412e-05, Final residual = 9.4536467e-07, No Iterations 45
 time step continuity errors : sum local = 1.9759449e-12, global = 5.8874165e-14, cumulative = -5.050137e-08
-ExecutionTime = 71.88 s  ClockTime = 72 s
+ExecutionTime = 96.68 s  ClockTime = 99 s
 
 Time = 11
 
@@ -1798,7 +1798,7 @@ DICPCG:  Solving for p, Initial residual = 0.00010490021, Final residual = 4.703
 DICPCG:  Solving for p, Initial residual = 8.8423262e-05, Final residual = 3.9094912e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.2486968e-05, Final residual = 9.8055902e-07, No Iterations 47
 time step continuity errors : sum local = 2.0400367e-12, global = 8.13098e-14, cumulative = -5.0493352e-08
-ExecutionTime = 72.64 s  ClockTime = 72 s
+ExecutionTime = 97.58 s  ClockTime = 100 s
 
 Time = 11.1
 
@@ -1814,7 +1814,7 @@ DICPCG:  Solving for p, Initial residual = 0.00012415457, Final residual = 6.131
 DICPCG:  Solving for p, Initial residual = 9.5027411e-05, Final residual = 4.531771e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 2.6448379e-05, Final residual = 9.9964841e-07, No Iterations 50
 time step continuity errors : sum local = 2.0700105e-12, global = 5.4208813e-14, cumulative = -5.0485248e-08
-ExecutionTime = 73.23 s  ClockTime = 73 s
+ExecutionTime = 98.51 s  ClockTime = 101 s
 
 Time = 11.2
 
@@ -1830,7 +1830,7 @@ DICPCG:  Solving for p, Initial residual = 0.0001114912, Final residual = 4.9633
 DICPCG:  Solving for p, Initial residual = 8.6612365e-05, Final residual = 4.1912114e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.2786032e-05, Final residual = 9.9663813e-07, No Iterations 30
 time step continuity errors : sum local = 2.0541792e-12, global = 3.3511997e-14, cumulative = -5.0478105e-08
-ExecutionTime = 73.75 s  ClockTime = 74 s
+ExecutionTime = 99.14 s  ClockTime = 101 s
 
 Time = 11.3
 
@@ -1846,7 +1846,7 @@ DICPCG:  Solving for p, Initial residual = 0.00010855147, Final residual = 5.283
 DICPCG:  Solving for p, Initial residual = 8.9590409e-05, Final residual = 3.8475642e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 2.382246e-05, Final residual = 9.5462791e-07, No Iterations 48
 time step continuity errors : sum local = 1.9586201e-12, global = 3.7682758e-14, cumulative = -5.0470057e-08
-ExecutionTime = 74.33 s  ClockTime = 74 s
+ExecutionTime = 99.76 s  ClockTime = 102 s
 
 Time = 11.4
 
@@ -1862,7 +1862,7 @@ DICPCG:  Solving for p, Initial residual = 0.00010661196, Final residual = 5.121
 DICPCG:  Solving for p, Initial residual = 8.7706013e-05, Final residual = 4.2681655e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.2682927e-05, Final residual = 9.871529e-07, No Iterations 23
 time step continuity errors : sum local = 2.0162856e-12, global = 3.0270575e-14, cumulative = -5.0462347e-08
-ExecutionTime = 74.88 s  ClockTime = 75 s
+ExecutionTime = 100.43 s  ClockTime = 103 s
 
 Time = 11.5
 
@@ -1878,7 +1878,7 @@ DICPCG:  Solving for p, Initial residual = 0.00010396372, Final residual = 5.058
 DICPCG:  Solving for p, Initial residual = 9.0411006e-05, Final residual = 4.4174386e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.3320156e-05, Final residual = 9.2874795e-07, No Iterations 42
 time step continuity errors : sum local = 1.8887909e-12, global = 2.5468422e-14, cumulative = -5.0454346e-08
-ExecutionTime = 75.6 s  ClockTime = 75 s
+ExecutionTime = 101.24 s  ClockTime = 104 s
 
 Time = 11.6
 
@@ -1894,7 +1894,7 @@ DICPCG:  Solving for p, Initial residual = 9.9121314e-05, Final residual = 4.798
 DICPCG:  Solving for p, Initial residual = 8.5388204e-05, Final residual = 4.0858161e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.2057304e-05, Final residual = 9.1517198e-07, No Iterations 23
 time step continuity errors : sum local = 1.8532162e-12, global = 3.0690434e-14, cumulative = -5.0446752e-08
-ExecutionTime = 76.16 s  ClockTime = 76 s
+ExecutionTime = 101.86 s  ClockTime = 104 s
 
 Time = 11.7
 
@@ -1910,7 +1910,7 @@ DICPCG:  Solving for p, Initial residual = 0.00010496209, Final residual = 5.191
 DICPCG:  Solving for p, Initial residual = 0.00010936744, Final residual = 5.3406261e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.7408198e-05, Final residual = 9.8230302e-07, No Iterations 46
 time step continuity errors : sum local = 1.9803545e-12, global = 3.0636466e-14, cumulative = -5.0436115e-08
-ExecutionTime = 76.75 s  ClockTime = 77 s
+ExecutionTime = 102.49 s  ClockTime = 105 s
 
 Time = 11.8
 
@@ -1926,7 +1926,7 @@ DICPCG:  Solving for p, Initial residual = 9.8810521e-05, Final residual = 4.684
 DICPCG:  Solving for p, Initial residual = 8.6113683e-05, Final residual = 4.2997547e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.2096473e-05, Final residual = 9.7827226e-07, No Iterations 45
 time step continuity errors : sum local = 1.9637151e-12, global = 4.4051852e-14, cumulative = -5.042838e-08
-ExecutionTime = 77.34 s  ClockTime = 77 s
+ExecutionTime = 103.1 s  ClockTime = 105 s
 
 Time = 11.9
 
@@ -1942,7 +1942,7 @@ DICPCG:  Solving for p, Initial residual = 9.94309e-05, Final residual = 4.81904
 DICPCG:  Solving for p, Initial residual = 8.7163303e-05, Final residual = 4.2503181e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.223079e-05, Final residual = 9.8674015e-07, No Iterations 24
 time step continuity errors : sum local = 1.9724561e-12, global = 2.5656386e-14, cumulative = -5.0420701e-08
-ExecutionTime = 77.91 s  ClockTime = 78 s
+ExecutionTime = 103.79 s  ClockTime = 106 s
 
 Time = 12
 
@@ -1958,7 +1958,7 @@ DICPCG:  Solving for p, Initial residual = 9.1730564e-05, Final residual = 4.405
 DICPCG:  Solving for p, Initial residual = 8.169279e-05, Final residual = 3.9618712e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.0844411e-05, Final residual = 9.5665032e-07, No Iterations 43
 time step continuity errors : sum local = 1.9044511e-12, global = 3.167601e-14, cumulative = -5.0413446e-08
-ExecutionTime = 78.67 s  ClockTime = 78 s
+ExecutionTime = 104.77 s  ClockTime = 107 s
 
 Time = 12.1
 
@@ -1974,7 +1974,7 @@ DICPCG:  Solving for p, Initial residual = 9.183349e-05, Final residual = 4.5051
 DICPCG:  Solving for p, Initial residual = 8.4126275e-05, Final residual = 4.1088296e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.1480756e-05, Final residual = 9.9256914e-07, No Iterations 32
 time step continuity errors : sum local = 1.9678557e-12, global = 2.7923623e-14, cumulative = -5.0405965e-08
-ExecutionTime = 79.24 s  ClockTime = 79 s
+ExecutionTime = 105.61 s  ClockTime = 108 s
 
 Time = 12.2
 
@@ -1990,7 +1990,7 @@ DICPCG:  Solving for p, Initial residual = 9.2533056e-05, Final residual = 4.591
 DICPCG:  Solving for p, Initial residual = 8.3652206e-05, Final residual = 4.1501923e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.1442136e-05, Final residual = 9.5812502e-07, No Iterations 33
 time step continuity errors : sum local = 1.8919008e-12, global = 3.2246118e-14, cumulative = -5.0398673e-08
-ExecutionTime = 79.86 s  ClockTime = 80 s
+ExecutionTime = 106.44 s  ClockTime = 109 s
 
 Time = 12.3
 
@@ -2006,7 +2006,7 @@ DICPCG:  Solving for p, Initial residual = 9.503893e-05, Final residual = 4.5035
 DICPCG:  Solving for p, Initial residual = 8.6880518e-05, Final residual = 4.2570175e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.2078353e-05, Final residual = 9.8372134e-07, No Iterations 40
 time step continuity errors : sum local = 1.9345156e-12, global = 3.1637481e-14, cumulative = -5.0390902e-08
-ExecutionTime = 80.49 s  ClockTime = 80 s
+ExecutionTime = 107.11 s  ClockTime = 110 s
 
 Time = 12.4
 
@@ -2022,7 +2022,7 @@ DICPCG:  Solving for p, Initial residual = 9.4277579e-05, Final residual = 4.614
 DICPCG:  Solving for p, Initial residual = 8.9226365e-05, Final residual = 4.2204753e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.2652671e-05, Final residual = 9.5228302e-07, No Iterations 37
 time step continuity errors : sum local = 1.8650221e-12, global = 7.9436575e-14, cumulative = -5.0382832e-08
-ExecutionTime = 81.04 s  ClockTime = 81 s
+ExecutionTime = 107.72 s  ClockTime = 110 s
 
 Time = 12.5
 
@@ -2038,7 +2038,7 @@ DICPCG:  Solving for p, Initial residual = 9.3561524e-05, Final residual = 4.522
 DICPCG:  Solving for p, Initial residual = 8.651087e-05, Final residual = 4.144929e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.2037911e-05, Final residual = 9.8804692e-07, No Iterations 32
 time step continuity errors : sum local = 1.9274138e-12, global = 3.4229275e-14, cumulative = -5.0375014e-08
-ExecutionTime = 81.79 s  ClockTime = 82 s
+ExecutionTime = 108.73 s  ClockTime = 111 s
 
 Time = 12.6
 
@@ -2054,7 +2054,7 @@ DICPCG:  Solving for p, Initial residual = 8.9903173e-05, Final residual = 4.117
 DICPCG:  Solving for p, Initial residual = 8.720998e-05, Final residual = 4.1163254e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.2245503e-05, Final residual = 9.7860727e-07, No Iterations 22
 time step continuity errors : sum local = 1.901592e-12, global = 3.7458984e-14, cumulative = -5.0367405e-08
-ExecutionTime = 82.35 s  ClockTime = 82 s
+ExecutionTime = 109.78 s  ClockTime = 112 s
 
 Time = 12.7
 
@@ -2070,7 +2070,7 @@ DICPCG:  Solving for p, Initial residual = 0.00010496607, Final residual = 5.193
 DICPCG:  Solving for p, Initial residual = 9.281285e-05, Final residual = 4.5097595e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.3919897e-05, Final residual = 9.8803256e-07, No Iterations 45
 time step continuity errors : sum local = 1.9121916e-12, global = 5.1319715e-14, cumulative = -5.0359541e-08
-ExecutionTime = 82.9 s  ClockTime = 83 s
+ExecutionTime = 110.71 s  ClockTime = 113 s
 
 Time = 12.8
 
@@ -2086,7 +2086,7 @@ DICPCG:  Solving for p, Initial residual = 8.8125332e-05, Final residual = 4.287
 DICPCG:  Solving for p, Initial residual = 8.1488627e-05, Final residual = 3.950693e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.0682963e-05, Final residual = 9.4250759e-07, No Iterations 37
 time step continuity errors : sum local = 1.8173435e-12, global = 2.6857774e-14, cumulative = -5.035228e-08
-ExecutionTime = 83.48 s  ClockTime = 83 s
+ExecutionTime = 111.67 s  ClockTime = 114 s
 
 Time = 12.9
 
@@ -2102,7 +2102,7 @@ DICPCG:  Solving for p, Initial residual = 8.8060945e-05, Final residual = 4.216
 DICPCG:  Solving for p, Initial residual = 7.9440672e-05, Final residual = 3.7526396e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.0189998e-05, Final residual = 9.8760888e-07, No Iterations 23
 time step continuity errors : sum local = 1.8971467e-12, global = 2.1262039e-14, cumulative = -5.0345497e-08
-ExecutionTime = 84.04 s  ClockTime = 84 s
+ExecutionTime = 112.64 s  ClockTime = 115 s
 
 Time = 13
 
@@ -2118,7 +2118,7 @@ DICPCG:  Solving for p, Initial residual = 8.8169536e-05, Final residual = 4.059
 DICPCG:  Solving for p, Initial residual = 7.4295534e-05, Final residual = 3.4558298e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.903739e-05, Final residual = 9.482439e-07, No Iterations 20
 time step continuity errors : sum local = 1.8150341e-12, global = 3.017248e-14, cumulative = -5.0339542e-08
-ExecutionTime = 84.74 s  ClockTime = 85 s
+ExecutionTime = 113.82 s  ClockTime = 117 s
 
 Time = 13.1
 
@@ -2134,7 +2134,7 @@ DICPCG:  Solving for p, Initial residual = 8.5824438e-05, Final residual = 4.243
 DICPCG:  Solving for p, Initial residual = 7.5445928e-05, Final residual = 3.7515606e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.9355015e-05, Final residual = 9.3927914e-07, No Iterations 32
 time step continuity errors : sum local = 1.7914318e-12, global = 2.4349171e-14, cumulative = -5.0333537e-08
-ExecutionTime = 85.26 s  ClockTime = 85 s
+ExecutionTime = 114.48 s  ClockTime = 117 s
 
 Time = 13.2
 
@@ -2150,7 +2150,7 @@ DICPCG:  Solving for p, Initial residual = 8.9761865e-05, Final residual = 4.433
 DICPCG:  Solving for p, Initial residual = 7.3198777e-05, Final residual = 3.5259851e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.9073404e-05, Final residual = 9.9998282e-07, No Iterations 38
 time step continuity errors : sum local = 1.9004412e-12, global = 1.9518925e-14, cumulative = -5.0327775e-08
-ExecutionTime = 85.82 s  ClockTime = 86 s
+ExecutionTime = 115.06 s  ClockTime = 118 s
 
 Time = 13.3
 
@@ -2166,7 +2166,7 @@ DICPCG:  Solving for p, Initial residual = 8.6892248e-05, Final residual = 4.146
 DICPCG:  Solving for p, Initial residual = 7.7462406e-05, Final residual = 3.8573905e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 2.0118267e-05, Final residual = 9.8162021e-07, No Iterations 32
 time step continuity errors : sum local = 1.8591298e-12, global = 2.7405581e-14, cumulative = -5.0321501e-08
-ExecutionTime = 86.35 s  ClockTime = 86 s
+ExecutionTime = 115.71 s  ClockTime = 119 s
 
 Time = 13.4
 
@@ -2182,7 +2182,7 @@ DICPCG:  Solving for p, Initial residual = 9.1194817e-05, Final residual = 4.418
 DICPCG:  Solving for p, Initial residual = 7.1794269e-05, Final residual = 3.4872651e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.8872789e-05, Final residual = 9.7427049e-07, No Iterations 43
 time step continuity errors : sum local = 1.8386977e-12, global = 3.8681106e-14, cumulative = -5.0315836e-08
-ExecutionTime = 86.93 s  ClockTime = 87 s
+ExecutionTime = 116.34 s  ClockTime = 119 s
 
 Time = 13.5
 
@@ -2198,7 +2198,7 @@ DICPCG:  Solving for p, Initial residual = 8.5790013e-05, Final residual = 4.066
 DICPCG:  Solving for p, Initial residual = 7.1869783e-05, Final residual = 3.4023468e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.8478838e-05, Final residual = 9.7708115e-07, No Iterations 20
 time step continuity errors : sum local = 1.8376711e-12, global = 3.9128854e-14, cumulative = -5.0310497e-08
-ExecutionTime = 87.64 s  ClockTime = 87 s
+ExecutionTime = 117.15 s  ClockTime = 120 s
 
 Time = 13.6
 
@@ -2214,7 +2214,7 @@ DICPCG:  Solving for p, Initial residual = 8.378613e-05, Final residual = 4.1622
 DICPCG:  Solving for p, Initial residual = 6.9928823e-05, Final residual = 2.915769e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.837665e-05, Final residual = 9.368409e-07, No Iterations 23
 time step continuity errors : sum local = 1.7560502e-12, global = 3.2860061e-14, cumulative = -5.0304868e-08
-ExecutionTime = 88.2 s  ClockTime = 88 s
+ExecutionTime = 118.01 s  ClockTime = 121 s
 
 Time = 13.7
 
@@ -2230,7 +2230,7 @@ DICPCG:  Solving for p, Initial residual = 9.4587716e-05, Final residual = 4.604
 DICPCG:  Solving for p, Initial residual = 7.6705014e-05, Final residual = 3.744512e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.9746207e-05, Final residual = 9.8366374e-07, No Iterations 22
 time step continuity errors : sum local = 1.8373737e-12, global = 4.8987181e-14, cumulative = -5.0299422e-08
-ExecutionTime = 88.73 s  ClockTime = 89 s
+ExecutionTime = 118.89 s  ClockTime = 122 s
 
 Time = 13.8
 
@@ -2246,7 +2246,7 @@ DICPCG:  Solving for p, Initial residual = 7.8028808e-05, Final residual = 3.770
 DICPCG:  Solving for p, Initial residual = 6.7210121e-05, Final residual = 3.2868913e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.7293184e-05, Final residual = 9.8716579e-07, No Iterations 30
 time step continuity errors : sum local = 1.8377383e-12, global = 2.2933984e-14, cumulative = -5.0293828e-08
-ExecutionTime = 89.29 s  ClockTime = 89 s
+ExecutionTime = 119.75 s  ClockTime = 123 s
 
 Time = 13.9
 
@@ -2262,7 +2262,7 @@ DICPCG:  Solving for p, Initial residual = 7.7369793e-05, Final residual = 3.857
 DICPCG:  Solving for p, Initial residual = 7.776612e-05, Final residual = 3.6919384e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.950153e-05, Final residual = 9.914518e-07, No Iterations 52
 time step continuity errors : sum local = 1.8397203e-12, global = 6.8239811e-14, cumulative = -5.0287896e-08
-ExecutionTime = 89.85 s  ClockTime = 90 s
+ExecutionTime = 120.5 s  ClockTime = 124 s
 
 Time = 14
 
@@ -2278,7 +2278,7 @@ DICPCG:  Solving for p, Initial residual = 7.622378e-05, Final residual = 3.6623
 DICPCG:  Solving for p, Initial residual = 6.6997568e-05, Final residual = 3.248229e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.7202741e-05, Final residual = 9.4747861e-07, No Iterations 34
 time step continuity errors : sum local = 1.7525671e-12, global = 3.370412e-14, cumulative = -5.0282305e-08
-ExecutionTime = 90.61 s  ClockTime = 90 s
+ExecutionTime = 121.64 s  ClockTime = 125 s
 
 Time = 14.1
 
@@ -2294,7 +2294,7 @@ DICPCG:  Solving for p, Initial residual = 7.649283e-05, Final residual = 3.7566
 DICPCG:  Solving for p, Initial residual = 7.8301913e-05, Final residual = 3.8980511e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.9673056e-05, Final residual = 9.7781784e-07, No Iterations 32
 time step continuity errors : sum local = 1.8029612e-12, global = 1.3395505e-14, cumulative = -5.0275659e-08
-ExecutionTime = 91.19 s  ClockTime = 91 s
+ExecutionTime = 122.55 s  ClockTime = 126 s
 
 Time = 14.2
 
@@ -2310,7 +2310,7 @@ DICPCG:  Solving for p, Initial residual = 7.9791624e-05, Final residual = 3.911
 DICPCG:  Solving for p, Initial residual = 8.3136774e-05, Final residual = 3.4658554e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 2.1564615e-05, Final residual = 9.2247075e-07, No Iterations 23
 time step continuity errors : sum local = 1.6955699e-12, global = 8.2269868e-15, cumulative = -5.0268568e-08
-ExecutionTime = 91.74 s  ClockTime = 92 s
+ExecutionTime = 123.38 s  ClockTime = 127 s
 
 Time = 14.3
 
@@ -2326,7 +2326,7 @@ DICPCG:  Solving for p, Initial residual = 7.6930111e-05, Final residual = 3.793
 DICPCG:  Solving for p, Initial residual = 7.2286515e-05, Final residual = 3.2093556e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.8654692e-05, Final residual = 9.5624255e-07, No Iterations 38
 time step continuity errors : sum local = 1.7520652e-12, global = 8.9652242e-15, cumulative = -5.0262508e-08
-ExecutionTime = 92.32 s  ClockTime = 92 s
+ExecutionTime = 124.31 s  ClockTime = 128 s
 
 Time = 14.4
 
@@ -2342,7 +2342,7 @@ DICPCG:  Solving for p, Initial residual = 7.4708038e-05, Final residual = 3.556
 DICPCG:  Solving for p, Initial residual = 6.5342772e-05, Final residual = 2.7427903e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.6567428e-05, Final residual = 9.6990896e-07, No Iterations 32
 time step continuity errors : sum local = 1.7717272e-12, global = 3.5327101e-14, cumulative = -5.0257462e-08
-ExecutionTime = 92.84 s  ClockTime = 93 s
+ExecutionTime = 125.12 s  ClockTime = 129 s
 
 Time = 14.5
 
@@ -2358,7 +2358,7 @@ DICPCG:  Solving for p, Initial residual = 8.2594111e-05, Final residual = 3.922
 DICPCG:  Solving for p, Initial residual = 6.4747359e-05, Final residual = 3.0070027e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.7273424e-05, Final residual = 9.4788867e-07, No Iterations 33
 time step continuity errors : sum local = 1.7258796e-12, global = 3.8587755e-14, cumulative = -5.0252539e-08
-ExecutionTime = 93.6 s  ClockTime = 93 s
+ExecutionTime = 126.1 s  ClockTime = 130 s
 
 Time = 14.6
 
@@ -2374,7 +2374,7 @@ DICPCG:  Solving for p, Initial residual = 7.8061661e-05, Final residual = 3.702
 DICPCG:  Solving for p, Initial residual = 6.3378457e-05, Final residual = 2.986672e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.6313131e-05, Final residual = 9.9463391e-07, No Iterations 39
 time step continuity errors : sum local = 1.8052319e-12, global = 2.9119143e-14, cumulative = -5.0247596e-08
-ExecutionTime = 94.15 s  ClockTime = 94 s
+ExecutionTime = 126.94 s  ClockTime = 131 s
 
 Time = 14.7
 
@@ -2390,7 +2390,7 @@ DICPCG:  Solving for p, Initial residual = 7.6980608e-05, Final residual = 3.716
 DICPCG:  Solving for p, Initial residual = 6.2476514e-05, Final residual = 3.023957e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.5878349e-05, Final residual = 9.7265973e-07, No Iterations 16
 time step continuity errors : sum local = 1.7599864e-12, global = 2.3717545e-14, cumulative = -5.0242756e-08
-ExecutionTime = 94.67 s  ClockTime = 95 s
+ExecutionTime = 127.6 s  ClockTime = 131 s
 
 Time = 14.8
 
@@ -2406,7 +2406,7 @@ DICPCG:  Solving for p, Initial residual = 7.5580112e-05, Final residual = 3.732
 DICPCG:  Solving for p, Initial residual = 6.4635072e-05, Final residual = 3.0836924e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.6618526e-05, Final residual = 9.9719912e-07, No Iterations 23
 time step continuity errors : sum local = 1.7990255e-12, global = 5.5268212e-14, cumulative = -5.0237924e-08
-ExecutionTime = 95.2 s  ClockTime = 95 s
+ExecutionTime = 128.16 s  ClockTime = 132 s
 
 Time = 14.9
 
@@ -2422,7 +2422,7 @@ DICPCG:  Solving for p, Initial residual = 7.631859e-05, Final residual = 3.7412
 DICPCG:  Solving for p, Initial residual = 6.1217979e-05, Final residual = 2.9793918e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.5866752e-05, Final residual = 9.1625405e-07, No Iterations 22
 time step continuity errors : sum local = 1.6481452e-12, global = 4.8011273e-14, cumulative = -5.023287e-08
-ExecutionTime = 95.77 s  ClockTime = 96 s
+ExecutionTime = 128.87 s  ClockTime = 132 s
 
 Time = 15
 
@@ -2438,7 +2438,7 @@ DICPCG:  Solving for p, Initial residual = 9.5860438e-05, Final residual = 4.750
 DICPCG:  Solving for p, Initial residual = 7.9675512e-05, Final residual = 3.457003e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 2.0290741e-05, Final residual = 9.6655642e-07, No Iterations 53
 time step continuity errors : sum local = 1.7332776e-12, global = 7.419887e-14, cumulative = -5.0228096e-08
-ExecutionTime = 96.55 s  ClockTime = 96 s
+ExecutionTime = 129.9 s  ClockTime = 134 s
 
 Time = 15.1
 
@@ -2454,7 +2454,7 @@ DICPCG:  Solving for p, Initial residual = 7.7170582e-05, Final residual = 3.701
 DICPCG:  Solving for p, Initial residual = 6.2286674e-05, Final residual = 3.0422763e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.5955904e-05, Final residual = 9.9164694e-07, No Iterations 47
 time step continuity errors : sum local = 1.7732392e-12, global = 2.7108341e-14, cumulative = -5.0223403e-08
-ExecutionTime = 97.09 s  ClockTime = 97 s
+ExecutionTime = 130.46 s  ClockTime = 134 s
 
 Time = 15.2
 
@@ -2470,7 +2470,7 @@ DICPCG:  Solving for p, Initial residual = 7.3150776e-05, Final residual = 3.650
 DICPCG:  Solving for p, Initial residual = 6.3825873e-05, Final residual = 3.0943031e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.6012649e-05, Final residual = 9.2657695e-07, No Iterations 17
 time step continuity errors : sum local = 1.6523546e-12, global = 7.9932865e-15, cumulative = -5.0218811e-08
-ExecutionTime = 97.61 s  ClockTime = 97 s
+ExecutionTime = 131 s  ClockTime = 135 s
 
 Time = 15.3
 
@@ -2486,7 +2486,7 @@ DICPCG:  Solving for p, Initial residual = 9.820783e-05, Final residual = 4.8499
 DICPCG:  Solving for p, Initial residual = 7.5234475e-05, Final residual = 3.3043072e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.9966001e-05, Final residual = 9.859455e-07, No Iterations 22
 time step continuity errors : sum local = 1.7532041e-12, global = 5.7500609e-14, cumulative = -5.0214416e-08
-ExecutionTime = 98.17 s  ClockTime = 98 s
+ExecutionTime = 131.61 s  ClockTime = 135 s
 
 Time = 15.4
 
@@ -2502,7 +2502,7 @@ DICPCG:  Solving for p, Initial residual = 7.6952393e-05, Final residual = 3.814
 DICPCG:  Solving for p, Initial residual = 5.8365163e-05, Final residual = 2.530552e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.5501318e-05, Final residual = 9.7034815e-07, No Iterations 33
 time step continuity errors : sum local = 1.720973e-12, global = 2.9308703e-14, cumulative = -5.0210002e-08
-ExecutionTime = 98.75 s  ClockTime = 99 s
+ExecutionTime = 132.26 s  ClockTime = 136 s
 
 Time = 15.5
 
@@ -2518,7 +2518,7 @@ DICPCG:  Solving for p, Initial residual = 7.663279e-05, Final residual = 3.7759
 DICPCG:  Solving for p, Initial residual = 6.5049743e-05, Final residual = 3.0640497e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.6339955e-05, Final residual = 9.607996e-07, No Iterations 38
 time step continuity errors : sum local = 1.6997113e-12, global = 5.9287296e-14, cumulative = -5.0205939e-08
-ExecutionTime = 99.5 s  ClockTime = 99 s
+ExecutionTime = 133.05 s  ClockTime = 137 s
 
 Time = 15.6
 
@@ -2534,7 +2534,7 @@ DICPCG:  Solving for p, Initial residual = 7.481528e-05, Final residual = 3.6286
 DICPCG:  Solving for p, Initial residual = 5.4892235e-05, Final residual = 2.4071311e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.4615204e-05, Final residual = 9.4853793e-07, No Iterations 43
 time step continuity errors : sum local = 1.6737965e-12, global = 2.5301851e-14, cumulative = -5.0202023e-08
-ExecutionTime = 100.08 s  ClockTime = 100 s
+ExecutionTime = 133.74 s  ClockTime = 137 s
 
 Time = 15.7
 
@@ -2550,7 +2550,7 @@ DICPCG:  Solving for p, Initial residual = 7.528464e-05, Final residual = 3.6883
 DICPCG:  Solving for p, Initial residual = 6.1773214e-05, Final residual = 3.0088803e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.5691027e-05, Final residual = 9.3938542e-07, No Iterations 33
 time step continuity errors : sum local = 1.6535184e-12, global = 4.2508537e-14, cumulative = -5.0198203e-08
-ExecutionTime = 100.64 s  ClockTime = 101 s
+ExecutionTime = 134.42 s  ClockTime = 138 s
 
 Time = 15.8
 
@@ -2566,7 +2566,7 @@ DICPCG:  Solving for p, Initial residual = 7.6683386e-05, Final residual = 3.830
 DICPCG:  Solving for p, Initial residual = 5.9742838e-05, Final residual = 2.5631575e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.5570197e-05, Final residual = 8.9613845e-07, No Iterations 33
 time step continuity errors : sum local = 1.5737899e-12, global = 2.3489559e-14, cumulative = -5.0194089e-08
-ExecutionTime = 101.23 s  ClockTime = 101 s
+ExecutionTime = 135.18 s  ClockTime = 139 s
 
 Time = 15.9
 
@@ -2582,7 +2582,7 @@ DICPCG:  Solving for p, Initial residual = 7.6542578e-05, Final residual = 3.749
 DICPCG:  Solving for p, Initial residual = 6.0919605e-05, Final residual = 3.0352126e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.5829388e-05, Final residual = 9.6334516e-07, No Iterations 39
 time step continuity errors : sum local = 1.6881266e-12, global = 4.6555353e-14, cumulative = -5.0190576e-08
-ExecutionTime = 101.81 s  ClockTime = 102 s
+ExecutionTime = 135.86 s  ClockTime = 140 s
 
 Time = 16
 
@@ -2598,7 +2598,7 @@ DICPCG:  Solving for p, Initial residual = 8.0578463e-05, Final residual = 3.850
 DICPCG:  Solving for p, Initial residual = 5.4840784e-05, Final residual = 2.6007138e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.51948e-05, Final residual = 9.7642985e-07, No Iterations 41
 time step continuity errors : sum local = 1.7076019e-12, global = 3.3980464e-14, cumulative = -5.018689e-08
-ExecutionTime = 102.57 s  ClockTime = 102 s
+ExecutionTime = 136.65 s  ClockTime = 140 s
 
 Time = 16.1
 
@@ -2614,7 +2614,7 @@ DICPCG:  Solving for p, Initial residual = 8.8344057e-05, Final residual = 4.320
 DICPCG:  Solving for p, Initial residual = 6.5680548e-05, Final residual = 3.1744592e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.7611476e-05, Final residual = 9.6272086e-07, No Iterations 44
 time step continuity errors : sum local = 1.6807376e-12, global = 5.9291666e-14, cumulative = -5.0183085e-08
-ExecutionTime = 103.14 s  ClockTime = 103 s
+ExecutionTime = 137.25 s  ClockTime = 141 s
 
 Time = 16.2
 
@@ -2630,7 +2630,7 @@ DICPCG:  Solving for p, Initial residual = 7.4060785e-05, Final residual = 3.515
 DICPCG:  Solving for p, Initial residual = 5.4872316e-05, Final residual = 2.2590975e-06, No Iterations 6
 DICPCG:  Solving for p, Initial residual = 1.5008837e-05, Final residual = 9.9505772e-07, No Iterations 12
 time step continuity errors : sum local = 1.7335214e-12, global = -8.5975358e-15, cumulative = -5.0179545e-08
-ExecutionTime = 103.66 s  ClockTime = 104 s
+ExecutionTime = 137.83 s  ClockTime = 142 s
 
 Time = 16.3
 
@@ -2646,7 +2646,7 @@ DICPCG:  Solving for p, Initial residual = 6.5948668e-05, Final residual = 3.069
 DICPCG:  Solving for p, Initial residual = 5.0779922e-05, Final residual = 2.104028e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.3665325e-05, Final residual = 9.6921435e-07, No Iterations 12
 time step continuity errors : sum local = 1.6842705e-12, global = -2.0887185e-14, cumulative = -5.0176374e-08
-ExecutionTime = 104.14 s  ClockTime = 104 s
+ExecutionTime = 138.38 s  ClockTime = 142 s
 
 Time = 16.4
 
@@ -2662,7 +2662,7 @@ DICPCG:  Solving for p, Initial residual = 6.2012604e-05, Final residual = 2.779
 DICPCG:  Solving for p, Initial residual = 4.5884413e-05, Final residual = 1.998268e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.2419523e-05, Final residual = 9.812428e-07, No Iterations 18
 time step continuity errors : sum local = 1.7008531e-12, global = 2.4929184e-15, cumulative = -5.0173303e-08
-ExecutionTime = 104.67 s  ClockTime = 105 s
+ExecutionTime = 139.29 s  ClockTime = 143 s
 
 Time = 16.5
 
@@ -2678,7 +2678,7 @@ DICPCG:  Solving for p, Initial residual = 6.1016165e-05, Final residual = 2.978
 DICPCG:  Solving for p, Initial residual = 4.572772e-05, Final residual = 2.0858821e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.2241121e-05, Final residual = 9.3335081e-07, No Iterations 44
 time step continuity errors : sum local = 1.6139346e-12, global = 3.1807621e-14, cumulative = -5.0170161e-08
-ExecutionTime = 105.38 s  ClockTime = 105 s
+ExecutionTime = 140.18 s  ClockTime = 144 s
 
 Time = 16.6
 
@@ -2694,7 +2694,7 @@ DICPCG:  Solving for p, Initial residual = 5.9485232e-05, Final residual = 2.875
 DICPCG:  Solving for p, Initial residual = 4.9451764e-05, Final residual = 2.4653618e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.276036e-05, Final residual = 9.5630374e-07, No Iterations 23
 time step continuity errors : sum local = 1.6496123e-12, global = 2.2661651e-14, cumulative = -5.0166401e-08
-ExecutionTime = 105.93 s  ClockTime = 106 s
+ExecutionTime = 140.81 s  ClockTime = 145 s
 
 Time = 16.7
 
@@ -2710,7 +2710,7 @@ DICPCG:  Solving for p, Initial residual = 5.7119867e-05, Final residual = 2.725
 DICPCG:  Solving for p, Initial residual = 4.5893771e-05, Final residual = 1.9349338e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.2136078e-05, Final residual = 9.2519916e-07, No Iterations 10
 time step continuity errors : sum local = 1.5921654e-12, global = -3.2918898e-14, cumulative = -5.0163041e-08
-ExecutionTime = 106.44 s  ClockTime = 106 s
+ExecutionTime = 141.33 s  ClockTime = 145 s
 
 Time = 16.8
 
@@ -2726,7 +2726,7 @@ DICPCG:  Solving for p, Initial residual = 5.6866784e-05, Final residual = 2.742
 DICPCG:  Solving for p, Initial residual = 5.1140692e-05, Final residual = 2.4424662e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.2974526e-05, Final residual = 9.7077754e-07, No Iterations 14
 time step continuity errors : sum local = 1.666613e-12, global = 5.8633356e-15, cumulative = -5.0159524e-08
-ExecutionTime = 106.97 s  ClockTime = 107 s
+ExecutionTime = 141.89 s  ClockTime = 146 s
 
 Time = 16.9
 
@@ -2742,7 +2742,7 @@ DICPCG:  Solving for p, Initial residual = 5.8659327e-05, Final residual = 2.930
 DICPCG:  Solving for p, Initial residual = 4.6945126e-05, Final residual = 2.2249464e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.2517155e-05, Final residual = 9.1987023e-07, No Iterations 32
 time step continuity errors : sum local = 1.575576e-12, global = 1.3753742e-14, cumulative = -5.0155968e-08
-ExecutionTime = 107.55 s  ClockTime = 107 s
+ExecutionTime = 142.49 s  ClockTime = 146 s
 
 Time = 17
 
@@ -2758,7 +2758,7 @@ DICPCG:  Solving for p, Initial residual = 5.6007387e-05, Final residual = 2.787
 DICPCG:  Solving for p, Initial residual = 5.1300937e-05, Final residual = 2.4712003e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.2953422e-05, Final residual = 9.6533184e-07, No Iterations 21
 time step continuity errors : sum local = 1.6495123e-12, global = 3.9305179e-14, cumulative = -5.0152416e-08
-ExecutionTime = 108.27 s  ClockTime = 108 s
+ExecutionTime = 143.26 s  ClockTime = 147 s
 
 Time = 17.1
 
@@ -2774,7 +2774,7 @@ DICPCG:  Solving for p, Initial residual = 5.5783494e-05, Final residual = 2.680
 DICPCG:  Solving for p, Initial residual = 4.6749513e-05, Final residual = 2.3212167e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.2054311e-05, Final residual = 9.3459175e-07, No Iterations 10
 time step continuity errors : sum local = 1.5932737e-12, global = -2.3024393e-14, cumulative = -5.0148894e-08
-ExecutionTime = 108.83 s  ClockTime = 109 s
+ExecutionTime = 143.84 s  ClockTime = 148 s
 
 Time = 17.2
 
@@ -2790,7 +2790,7 @@ DICPCG:  Solving for p, Initial residual = 5.8861817e-05, Final residual = 2.877
 DICPCG:  Solving for p, Initial residual = 5.4205414e-05, Final residual = 2.698696e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.3930201e-05, Final residual = 9.9264619e-07, No Iterations 40
 time step continuity errors : sum local = 1.6881779e-12, global = 2.6632346e-14, cumulative = -5.0145513e-08
-ExecutionTime = 109.39 s  ClockTime = 109 s
+ExecutionTime = 144.39 s  ClockTime = 148 s
 
 Time = 17.3
 
@@ -2806,7 +2806,7 @@ DICPCG:  Solving for p, Initial residual = 6.5867663e-05, Final residual = 3.190
 DICPCG:  Solving for p, Initial residual = 5.2338139e-05, Final residual = 2.4019245e-06, No Iterations 6
 DICPCG:  Solving for p, Initial residual = 1.472379e-05, Final residual = 9.8221236e-07, No Iterations 22
 time step continuity errors : sum local = 1.6659999e-12, global = 2.6550809e-14, cumulative = -5.0142763e-08
-ExecutionTime = 109.96 s  ClockTime = 110 s
+ExecutionTime = 144.97 s  ClockTime = 149 s
 
 Time = 17.4
 
@@ -2822,7 +2822,7 @@ DICPCG:  Solving for p, Initial residual = 6.4106596e-05, Final residual = 2.961
 DICPCG:  Solving for p, Initial residual = 5.507015e-05, Final residual = 2.2929437e-06, No Iterations 6
 DICPCG:  Solving for p, Initial residual = 1.4962952e-05, Final residual = 9.9907665e-07, No Iterations 17
 time step continuity errors : sum local = 1.6899011e-12, global = 1.6965501e-14, cumulative = -5.0139996e-08
-ExecutionTime = 110.48 s  ClockTime = 110 s
+ExecutionTime = 145.86 s  ClockTime = 150 s
 
 Time = 17.5
 
@@ -2838,7 +2838,7 @@ DICPCG:  Solving for p, Initial residual = 5.6219813e-05, Final residual = 2.664
 DICPCG:  Solving for p, Initial residual = 4.6256607e-05, Final residual = 1.9470687e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.2188657e-05, Final residual = 9.2632283e-07, No Iterations 24
 time step continuity errors : sum local = 1.5629914e-12, global = 2.0521235e-14, cumulative = -5.0136656e-08
-ExecutionTime = 111.22 s  ClockTime = 111 s
+ExecutionTime = 146.99 s  ClockTime = 151 s
 
 Time = 17.6
 
@@ -2854,7 +2854,7 @@ DICPCG:  Solving for p, Initial residual = 5.9642557e-05, Final residual = 2.965
 DICPCG:  Solving for p, Initial residual = 5.4614619e-05, Final residual = 2.5608405e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.4451786e-05, Final residual = 9.754253e-07, No Iterations 31
 time step continuity errors : sum local = 1.6420213e-12, global = 3.975006e-14, cumulative = -5.0133528e-08
-ExecutionTime = 111.87 s  ClockTime = 112 s
+ExecutionTime = 147.93 s  ClockTime = 152 s
 
 Time = 17.7
 
@@ -2870,7 +2870,7 @@ DICPCG:  Solving for p, Initial residual = 5.9781571e-05, Final residual = 2.810
 DICPCG:  Solving for p, Initial residual = 4.9433374e-05, Final residual = 2.1198353e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.3330626e-05, Final residual = 9.4218157e-07, No Iterations 10
 time step continuity errors : sum local = 1.5824711e-12, global = -1.8866355e-14, cumulative = -5.0129923e-08
-ExecutionTime = 112.43 s  ClockTime = 112 s
+ExecutionTime = 148.99 s  ClockTime = 153 s
 
 Time = 17.8
 
@@ -2886,7 +2886,7 @@ DICPCG:  Solving for p, Initial residual = 5.7111665e-05, Final residual = 2.718
 DICPCG:  Solving for p, Initial residual = 5.3917945e-05, Final residual = 2.6056411e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.3968585e-05, Final residual = 9.660129e-07, No Iterations 10
 time step continuity errors : sum local = 1.6187034e-12, global = -2.3300383e-14, cumulative = -5.0126193e-08
-ExecutionTime = 112.93 s  ClockTime = 113 s
+ExecutionTime = 149.89 s  ClockTime = 154 s
 
 Time = 17.9
 
@@ -2902,7 +2902,7 @@ DICPCG:  Solving for p, Initial residual = 6.3360832e-05, Final residual = 3.008
 DICPCG:  Solving for p, Initial residual = 5.2379194e-05, Final residual = 2.6000666e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.427612e-05, Final residual = 9.8556178e-07, No Iterations 17
 time step continuity errors : sum local = 1.6479651e-12, global = -6.2459775e-15, cumulative = -5.012259e-08
-ExecutionTime = 113.45 s  ClockTime = 113 s
+ExecutionTime = 150.8 s  ClockTime = 155 s
 
 Time = 18
 
@@ -2918,7 +2918,7 @@ DICPCG:  Solving for p, Initial residual = 6.0045831e-05, Final residual = 2.965
 DICPCG:  Solving for p, Initial residual = 5.6727987e-05, Final residual = 2.7161184e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.4966057e-05, Final residual = 9.7797747e-07, No Iterations 20
 time step continuity errors : sum local = 1.6317679e-12, global = 3.5644047e-14, cumulative = -5.0119147e-08
-ExecutionTime = 114.16 s  ClockTime = 114 s
+ExecutionTime = 151.67 s  ClockTime = 156 s
 
 Time = 18.1
 
@@ -2934,7 +2934,7 @@ DICPCG:  Solving for p, Initial residual = 7.5241887e-05, Final residual = 3.684
 DICPCG:  Solving for p, Initial residual = 6.1246658e-05, Final residual = 2.9422855e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.6689011e-05, Final residual = 9.9495745e-07, No Iterations 38
 time step continuity errors : sum local = 1.6563349e-12, global = 4.2071933e-14, cumulative = -5.011564e-08
-ExecutionTime = 114.7 s  ClockTime = 115 s
+ExecutionTime = 152.32 s  ClockTime = 157 s
 
 Time = 18.2
 
@@ -2950,7 +2950,7 @@ DICPCG:  Solving for p, Initial residual = 5.4781381e-05, Final residual = 2.662
 DICPCG:  Solving for p, Initial residual = 5.0179418e-05, Final residual = 2.5085978e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.323475e-05, Final residual = 9.3834605e-07, No Iterations 10
 time step continuity errors : sum local = 1.5586449e-12, global = -1.2987082e-14, cumulative = -5.0112315e-08
-ExecutionTime = 115.18 s  ClockTime = 115 s
+ExecutionTime = 152.91 s  ClockTime = 158 s
 
 Time = 18.3
 
@@ -2966,7 +2966,7 @@ DICPCG:  Solving for p, Initial residual = 6.6313679e-05, Final residual = 3.154
 DICPCG:  Solving for p, Initial residual = 5.5770366e-05, Final residual = 2.7401892e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.4711498e-05, Final residual = 9.3762336e-07, No Iterations 10
 time step continuity errors : sum local = 1.5538843e-12, global = -5.8010693e-15, cumulative = -5.0109115e-08
-ExecutionTime = 115.73 s  ClockTime = 116 s
+ExecutionTime = 153.59 s  ClockTime = 158 s
 
 Time = 18.4
 
@@ -2982,7 +2982,7 @@ DICPCG:  Solving for p, Initial residual = 6.7197815e-05, Final residual = 3.137
 DICPCG:  Solving for p, Initial residual = 5.5215553e-05, Final residual = 2.4734338e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.4794874e-05, Final residual = 9.8811521e-07, No Iterations 17
 time step continuity errors : sum local = 1.6339093e-12, global = 1.6340326e-14, cumulative = -5.0105625e-08
-ExecutionTime = 116.28 s  ClockTime = 116 s
+ExecutionTime = 154.25 s  ClockTime = 159 s
 
 Time = 18.5
 
@@ -2998,7 +2998,7 @@ DICPCG:  Solving for p, Initial residual = 6.8190315e-05, Final residual = 3.408
 DICPCG:  Solving for p, Initial residual = 5.0034726e-05, Final residual = 2.1378616e-06, No Iterations 6
 DICPCG:  Solving for p, Initial residual = 1.4155662e-05, Final residual = 9.9406856e-07, No Iterations 45
 time step continuity errors : sum local = 1.6403947e-12, global = 2.4102384e-14, cumulative = -5.0102406e-08
-ExecutionTime = 117.01 s  ClockTime = 117 s
+ExecutionTime = 155.14 s  ClockTime = 160 s
 
 Time = 18.6
 
@@ -3014,7 +3014,7 @@ DICPCG:  Solving for p, Initial residual = 5.6203741e-05, Final residual = 2.642
 DICPCG:  Solving for p, Initial residual = 5.2140815e-05, Final residual = 2.6027049e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.330681e-05, Final residual = 9.9325096e-07, No Iterations 9
 time step continuity errors : sum local = 1.6357361e-12, global = 7.5842286e-15, cumulative = -5.0099091e-08
-ExecutionTime = 117.55 s  ClockTime = 117 s
+ExecutionTime = 155.82 s  ClockTime = 160 s
 
 Time = 18.7
 
@@ -3030,7 +3030,7 @@ DICPCG:  Solving for p, Initial residual = 6.0582067e-05, Final residual = 2.971
 DICPCG:  Solving for p, Initial residual = 5.3430947e-05, Final residual = 2.5503723e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.397922e-05, Final residual = 9.7515764e-07, No Iterations 41
 time step continuity errors : sum local = 1.6026164e-12, global = 1.578309e-14, cumulative = -5.0095844e-08
-ExecutionTime = 118.12 s  ClockTime = 118 s
+ExecutionTime = 156.51 s  ClockTime = 161 s
 
 Time = 18.8
 
@@ -3046,7 +3046,7 @@ DICPCG:  Solving for p, Initial residual = 6.0525619e-05, Final residual = 2.846
 DICPCG:  Solving for p, Initial residual = 4.9417532e-05, Final residual = 2.1171241e-06, No Iterations 6
 DICPCG:  Solving for p, Initial residual = 1.3207377e-05, Final residual = 9.9994367e-07, No Iterations 19
 time step continuity errors : sum local = 1.6399514e-12, global = 1.5198137e-14, cumulative = -5.0093038e-08
-ExecutionTime = 118.67 s  ClockTime = 119 s
+ExecutionTime = 157.18 s  ClockTime = 162 s
 
 Time = 18.9
 
@@ -3062,7 +3062,7 @@ DICPCG:  Solving for p, Initial residual = 6.5269505e-05, Final residual = 3.117
 DICPCG:  Solving for p, Initial residual = 5.065276e-05, Final residual = 2.2234421e-06, No Iterations 6
 DICPCG:  Solving for p, Initial residual = 1.3796826e-05, Final residual = 9.7736911e-07, No Iterations 22
 time step continuity errors : sum local = 1.5996102e-12, global = 3.0284626e-14, cumulative = -5.0090203e-08
-ExecutionTime = 119.26 s  ClockTime = 119 s
+ExecutionTime = 157.92 s  ClockTime = 163 s
 
 Time = 19
 
@@ -3078,7 +3078,7 @@ DICPCG:  Solving for p, Initial residual = 5.1889836e-05, Final residual = 2.373
 DICPCG:  Solving for p, Initial residual = 4.4929489e-05, Final residual = 2.2394662e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.1636168e-05, Final residual = 8.8419699e-07, No Iterations 6
 time step continuity errors : sum local = 1.4443076e-12, global = 4.2147833e-14, cumulative = -5.0087421e-08
-ExecutionTime = 119.99 s  ClockTime = 120 s
+ExecutionTime = 158.79 s  ClockTime = 163 s
 
 Time = 19.1
 
@@ -3094,7 +3094,7 @@ DICPCG:  Solving for p, Initial residual = 5.1328411e-05, Final residual = 2.501
 DICPCG:  Solving for p, Initial residual = 4.5388208e-05, Final residual = 2.060079e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.1916038e-05, Final residual = 9.3824695e-07, No Iterations 37
 time step continuity errors : sum local = 1.5297073e-12, global = 2.9628839e-14, cumulative = -5.0084691e-08
-ExecutionTime = 120.55 s  ClockTime = 120 s
+ExecutionTime = 159.45 s  ClockTime = 164 s
 
 Time = 19.2
 
@@ -3110,7 +3110,7 @@ DICPCG:  Solving for p, Initial residual = 5.1908262e-05, Final residual = 2.586
 DICPCG:  Solving for p, Initial residual = 4.4298745e-05, Final residual = 1.9753759e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.16642e-05, Final residual = 9.9903664e-07, No Iterations 24
 time step continuity errors : sum local = 1.6257739e-12, global = 4.0514036e-14, cumulative = -5.0082037e-08
-ExecutionTime = 121.09 s  ClockTime = 121 s
+ExecutionTime = 160.12 s  ClockTime = 165 s
 
 Time = 19.3
 
@@ -3126,7 +3126,7 @@ DICPCG:  Solving for p, Initial residual = 5.0896089e-05, Final residual = 2.501
 DICPCG:  Solving for p, Initial residual = 3.7317546e-05, Final residual = 1.8012752e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.0436278e-05, Final residual = 9.7721902e-07, No Iterations 5
 time step continuity errors : sum local = 1.5873968e-12, global = 2.106956e-14, cumulative = -5.0079898e-08
-ExecutionTime = 121.57 s  ClockTime = 122 s
+ExecutionTime = 160.7 s  ClockTime = 165 s
 
 Time = 19.4
 
@@ -3142,7 +3142,7 @@ DICPCG:  Solving for p, Initial residual = 5.3593573e-05, Final residual = 2.662
 DICPCG:  Solving for p, Initial residual = 4.4877271e-05, Final residual = 2.0068637e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.187591e-05, Final residual = 9.3941754e-07, No Iterations 17
 time step continuity errors : sum local = 1.5231125e-12, global = 2.4494737e-14, cumulative = -5.0078229e-08
-ExecutionTime = 122.12 s  ClockTime = 122 s
+ExecutionTime = 161.37 s  ClockTime = 166 s
 
 Time = 19.5
 
@@ -3158,7 +3158,7 @@ DICPCG:  Solving for p, Initial residual = 5.0362409e-05, Final residual = 2.417
 DICPCG:  Solving for p, Initial residual = 4.2742214e-05, Final residual = 1.9166578e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.1440032e-05, Final residual = 9.7955476e-07, No Iterations 5
 time step continuity errors : sum local = 1.585151e-12, global = 3.04141e-14, cumulative = -5.0075346e-08
-ExecutionTime = 122.86 s  ClockTime = 123 s
+ExecutionTime = 162.25 s  ClockTime = 167 s
 
 Time = 19.6
 
@@ -3174,7 +3174,7 @@ DICPCG:  Solving for p, Initial residual = 4.6529811e-05, Final residual = 2.174
 DICPCG:  Solving for p, Initial residual = 4.1426954e-05, Final residual = 2.0053516e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.0919568e-05, Final residual = 9.2809305e-07, No Iterations 6
 time step continuity errors : sum local = 1.4991896e-12, global = 3.9069293e-14, cumulative = -5.0072923e-08
-ExecutionTime = 123.4 s  ClockTime = 123 s
+ExecutionTime = 162.89 s  ClockTime = 168 s
 
 Time = 19.7
 
@@ -3190,7 +3190,7 @@ DICPCG:  Solving for p, Initial residual = 4.7245374e-05, Final residual = 2.309
 DICPCG:  Solving for p, Initial residual = 3.9212236e-05, Final residual = 1.825983e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.0482525e-05, Final residual = 9.0270498e-07, No Iterations 6
 time step continuity errors : sum local = 1.4556079e-12, global = 3.2867568e-14, cumulative = -5.0070368e-08
-ExecutionTime = 123.89 s  ClockTime = 124 s
+ExecutionTime = 163.5 s  ClockTime = 168 s
 
 Time = 19.8
 
@@ -3206,7 +3206,7 @@ DICPCG:  Solving for p, Initial residual = 4.5994067e-05, Final residual = 2.257
 DICPCG:  Solving for p, Initial residual = 4.3371952e-05, Final residual = 2.1624126e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.1258879e-05, Final residual = 9.8905215e-07, No Iterations 6
 time step continuity errors : sum local = 1.5919805e-12, global = 5.2713059e-14, cumulative = -5.0067821e-08
-ExecutionTime = 124.57 s  ClockTime = 125 s
+ExecutionTime = 164.12 s  ClockTime = 169 s
 
 Time = 19.9
 
@@ -3222,7 +3222,7 @@ DICPCG:  Solving for p, Initial residual = 4.7357663e-05, Final residual = 2.327
 DICPCG:  Solving for p, Initial residual = 3.9131618e-05, Final residual = 1.8062401e-06, No Iterations 5
 DICPCG:  Solving for p, Initial residual = 1.0657576e-05, Final residual = 9.9830204e-07, No Iterations 5
 time step continuity errors : sum local = 1.6041322e-12, global = 2.8417284e-14, cumulative = -5.0065299e-08
-ExecutionTime = 125.25 s  ClockTime = 125 s
+ExecutionTime = 164.71 s  ClockTime = 169 s
 
 Time = 20
 
@@ -3238,7 +3238,7 @@ DICPCG:  Solving for p, Initial residual = 4.731896e-05, Final residual = 2.2676
 DICPCG:  Solving for p, Initial residual = 3.844176e-05, Final residual = 1.867838e-06, No Iterations 4
 DICPCG:  Solving for p, Initial residual = 1.0612939e-05, Final residual = 9.867616e-07, No Iterations 6
 time step continuity errors : sum local = 1.5828224e-12, global = 7.693541e-14, cumulative = -5.0063524e-08
-ExecutionTime = 126.24 s  ClockTime = 126 s
+ExecutionTime = 165.52 s  ClockTime = 170 s
 
 End
 
